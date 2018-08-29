@@ -19,7 +19,6 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/favicon.ico") {
     /* no favicons */
   } else {
-    console.log("Handling extra request for: ", req.url);
     handleSuperheroApi(req.url).then(responseContent =>
       res.end(JSON.stringify(responseContent))
     );
