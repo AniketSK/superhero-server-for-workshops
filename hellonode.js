@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
 handleSuperheroApi = async url => {
   const options = {
     host: "superheroapi.com",
-    path: url,
+    path: url.replace("/api", "/api.php"),
     method: "GET",
     headers: {
       "Content-Type": "application/json"
@@ -33,7 +33,6 @@ handleSuperheroApi = async url => {
   };
   const externalCallPromise = new Promise((resolve, reject) =>
     http.get(options, res => {
-
       let rawData = "";
       res.on("data", chunk => {
         rawData += chunk;
@@ -41,14 +40,12 @@ handleSuperheroApi = async url => {
       res.on("end", () => {
         try {
           const parsedData = JSON.parse(rawData);
-          console.log(parsedData);
           resolve(parsedData);
         } catch (e) {
           console.error(e.message);
-          reject(e)
+          reject(e);
         }
       });
-
     })
   );
   const reply = await externalCallPromise;
