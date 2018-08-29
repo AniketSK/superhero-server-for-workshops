@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "application/json");
 
   if (req.url.startsWith("/all")) {
-    responseContent = handleReqAll(req.query);
+    responseContent = handleReqAll(req.url);
     res.end(JSON.stringify(responseContent));
   } else {
     handleSuperheroApi(req.url).then(responseContent =>
@@ -54,11 +54,19 @@ handleSuperheroApi = async url => {
   return reply;
 };
 
-handleReqAll = queryParams => {
-  console.log(queryParams);
+handleReqAll = url => {
+  let max = getMax(url);
   return {
-    superheroes: allData
+    superheroes: allData.slice(0, max)
   };
+};
+
+getMax = url => {
+  const regex1 = /max=([0-9]*)/;
+  const match = regex1.exec(url);
+  if (match != null) {
+    return match[1];
+  }
 };
 
 //listen for request on port 3000, and as a callback function have the port listened on logged
