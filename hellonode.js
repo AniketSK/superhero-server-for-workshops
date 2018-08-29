@@ -21,7 +21,6 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify(responseContent))
     );
   }
-  //   res.end('{"name":"Hello World"}');
 });
 
 handleSuperheroApi = async url => {
@@ -71,5 +70,14 @@ getMax = url => {
 
 //listen for request on port 3000, and as a callback function have the port listened on logged
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+  console.log(`Server running at http://${hostname}:${port}/
+  Useage:
+  1. To get a list of all superheroes:
+  http://${hostname}:${port}/all
+
+  2. To get a limited number of them:
+  http://${hostname}:${port}/all?max=10
+
+  3. To get a hero by their id:
+  http://${hostname}:${port}/<your access token>/1`);
 });
