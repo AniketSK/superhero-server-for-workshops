@@ -29535,4 +29535,4 @@ const allData = [
     }
   }
 ];
-exports.allData = allData
+exports.allData = allData;
