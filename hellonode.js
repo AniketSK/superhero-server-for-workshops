@@ -7,8 +7,8 @@ const port = 3000;
 
 const stripUnusedFields = hero => {
   // All the fields mentioned here are just the ones to keep.
-  const { name, image, powerstats } = hero;
-  return { name, image, powerstats };
+  const { id, name, image, powerstats } = hero;
+  return { id, name, image, powerstats };
 };
 
 //Create HTTP server and listen on port 3000 for requests
