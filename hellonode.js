@@ -5,6 +5,12 @@ const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
 
+const stripUnusedFields = hero => {
+  // All the fields mentioned here are just the ones to keep.
+  const { name, image, powerstats } = hero;
+  return { name, image, powerstats };
+};
+
 //Create HTTP server and listen on port 3000 for requests
 const server = http.createServer((req, res) => {
   let responseContent = "";
@@ -20,7 +26,7 @@ const server = http.createServer((req, res) => {
     /* no favicons */
   } else {
     handleSuperheroApi(req.url).then(responseContent =>
-      res.end(JSON.stringify(responseContent))
+      res.end(JSON.stringify(stripUnusedFields(responseContent)))
     );
   }
 });
@@ -58,7 +64,7 @@ handleSuperheroApi = async url => {
 handleReqAll = url => {
   let max = getMax(url);
   return {
-    superheroes: allData.slice(0, max)
+    superheroes: allData.slice(0, max).map(stripUnusedFields)
   };
 };
 
@@ -72,7 +78,7 @@ getMax = url => {
 
 //listen for request on port 3000, and as a callback function have the port listened on logged
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/
+  console.log(`Server running
   Useage:
   1. To get a list of all superheroes:
   http://${hostname}:${port}/all
