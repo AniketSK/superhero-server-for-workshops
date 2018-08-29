@@ -49,7 +49,6 @@ handleSuperheroApi = async url => {
     })
   );
   const reply = await externalCallPromise;
-  console.log("Got a reply: ", reply);
   return reply;
 };
 
