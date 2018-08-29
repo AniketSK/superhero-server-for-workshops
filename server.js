@@ -5,6 +5,17 @@ const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
 
+const useageInfo = `Server running
+Useage:
+1. To get a list of all superheroes:
+http://${hostname}:${port}/all
+
+2. To get a limited number of them:
+http://${hostname}:${port}/all?max=10
+
+3. To get a hero by their id:
+http://${hostname}:${port}/<your access token>/1`
+
 const stripUnusedFields = hero => {
   // All the fields mentioned here are just the ones to keep.
   const { id, name, image, powerstats } = hero;
@@ -24,6 +35,8 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify(responseContent));
   } else if (req.url == "/favicon.ico") {
     /* no favicons */
+  } else if (req.url == '/') {
+    res.end(useageInfo)
   } else {
     handleSuperheroApi(req.url).then(responseContent =>
       res.end(JSON.stringify(stripUnusedFields(responseContent)))
@@ -78,14 +91,5 @@ getMax = url => {
 
 //listen for request on port 3000, and as a callback function have the port listened on logged
 server.listen(port, hostname, () => {
-  console.log(`Server running
-  Useage:
-  1. To get a list of all superheroes:
-  http://${hostname}:${port}/all
-
-  2. To get a limited number of them:
-  http://${hostname}:${port}/all?max=10
-
-  3. To get a hero by their id:
-  http://${hostname}:${port}/<your access token>/1`);
+  console.log(useageInfo);
 });
