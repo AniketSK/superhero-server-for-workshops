@@ -1,3 +1,5 @@
+const allData = require("./single_data_file").allData;
+
 //Load HTTP module
 const http = require("http");
 const hostname = "127.0.0.1";
@@ -55,7 +57,7 @@ handleSuperheroApi = async url => {
 handleReqAll = queryParams => {
   console.log(queryParams);
   return {
-    whoa: "getting all"
+    superheroes: allData
   };
 };
 
