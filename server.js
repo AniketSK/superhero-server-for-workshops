@@ -37,10 +37,10 @@ const server = http.createServer((req, res) => {
   console.log("req url is: ", req.url);
   //Set the response HTTP header with HTTP status and Content type
   res.statusCode = 200;
-  res.header("Content-Type", "application/json");
+  res.setHeader("Content-Type", "application/json");
   // Cross Origin Resource Sharing headers
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
   if (req.url.startsWith("/all")) {
     responseContent = handleReqAll(req.url);
