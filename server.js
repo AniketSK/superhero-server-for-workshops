@@ -5,6 +5,7 @@ const allData = require("./single_data_file").allData;
 const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
+const urlLib = require('url')
 
 // What to tell people in both the console and the root of the webserver when no api is called.
 const useageInfo = `Server running
@@ -120,17 +121,8 @@ compare = (h1, h2) => {
  * Beware of params that are partial matches.
  */
 getParam = (param, url) => {
-  // in a url like /all?max=100, look for the word 'max=' and find all the numbers after the equals.
-  const paramRegex = {
-    start: /start=([0-9]*)/,
-    end: /end=([0-9]*)/,
-    max: /max=([0-9]*)/
-  };
-  let match = paramRegex[param].exec(url);
-  // it's possible that max isn't present in the url at all, for instance in the url /all
-  if (match != null) {
-    return match[1];
-  }
+  let query = urlLib.parse(url, true).query
+  return query[param]
 };
 
 //listen for request on port 3000, and as a callback function have the port listened on logged
