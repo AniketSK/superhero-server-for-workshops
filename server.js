@@ -98,9 +98,11 @@ handleReqAll = url => {
   let max = getParam("max", url);
   let start = getParam("start", url);
   let end = getParam("end", url);
+  let gender = getParam("gender", url);
   return {
     superheroes: allData
       .sort(compare)
+      .filter( h => gender ? h.appearance.gender.toLowerCase() == gender.toLowerCase() : true)
       .slice(start, max ? max : end)
       .map(stripUnusedFields)
   };
