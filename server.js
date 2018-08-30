@@ -94,19 +94,27 @@ handleSuperheroApi = async url => {
  * Response for a request for all characters.
  */
 handleReqAll = url => {
-  let max = getMax(url);
+  let max = getParam('max', url);
+  let start = getParam('start', url);
+  let end = getParam('end', url);
   return {
-    superheroes: allData.slice(0, max).map(stripUnusedFields)
+    superheroes: allData.slice(start, max ? max : end).map(stripUnusedFields)
   };
 };
 
 /**
- * Get the number value for the url-parameter 'max'
+ * Get the value for url-parameters.
+ * Each param is assiged a regex and it's looked for in the url.
+ * Beware of params that are partial matches.
  */
-getMax = url => {
+getParam = (param, url) => {
   // in a url like /all?max=100, look for the word 'max=' and find all the numbers after the equals.
-  const regex1 = /max=([0-9]*)/;
-  const match = regex1.exec(url);
+  const paramRegex = {
+    start: /start=([0-9]*)/,
+    end: /end=([0-9]*)/,
+    max: /max=([0-9]*)/
+  };
+  let match = paramRegex[param].exec(url);
   // it's possible that max isn't present in the url at all, for instance in the url /all
   if (match != null) {
     return match[1];
