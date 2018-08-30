@@ -1,7 +1,7 @@
 const allData = [
   {
     response: "success",
-    id: "732",
+    id: "1",
     name: "Shuri",
     powerstats: {
       intelligence: "100",
@@ -43,7 +43,7 @@ const allData = [
   },
   {
     response: "success",
-    id: "1",
+    id: "2",
     name: "A-Bomb",
     powerstats: {
       intelligence: "38",
@@ -4478,7 +4478,7 @@ const allData = [
   },
   {
     response: "success",
-    id: "2",
+    id: "9",
     name: "Abe Sapien",
     powerstats: {
       intelligence: "88",
@@ -14024,7 +14024,7 @@ const allData = [
   },
   {
     response: "success",
-    id: "41",
+    id: "720",
     name: "Arclight",
     powerstats: {
       intelligence: "38",
@@ -27888,7 +27888,7 @@ const allData = [
   },
   {
     response: "success",
-    id: "720",
+    id: "41",
     name: "Wonder Woman",
     powerstats: {
       intelligence: "88",
@@ -29121,7 +29121,7 @@ const allData = [
   },
   {
     response: "success",
-    id: "9",
+    id: "732",
     name: "Agent 13",
     powerstats: {
       intelligence: "null",
