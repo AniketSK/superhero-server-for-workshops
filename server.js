@@ -5,7 +5,7 @@ const allData = require("./single_data_file").allData;
 const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
-const urlLib = require('url')
+const urlLib = require("url");
 
 // What to tell people in both the console and the root of the webserver when no api is called.
 const useageInfo = `Server running
@@ -99,13 +99,16 @@ handleReqAll = url => {
   let start = getParam("start", url);
   let end = getParam("end", url);
   return {
-    superheroes: allData.sort(compare).slice(start, max ? max : end).map(stripUnusedFields)
+    superheroes: allData
+      .sort(compare)
+      .slice(start, max ? max : end)
+      .map(stripUnusedFields)
   };
 };
 
 compare = (h1, h2) => {
-  var hid1 = Number(h1.id)
-  var hid2 = Number(h2.id)
+  var hid1 = Number(h1.id);
+  var hid2 = Number(h2.id);
   if (hid1 == hid2) {
     return 0;
   } else if (hid1 < hid2) {
@@ -121,8 +124,8 @@ compare = (h1, h2) => {
  * Beware of params that are partial matches.
  */
 getParam = (param, url) => {
-  let query = urlLib.parse(url, true).query
-  return query[param]
+  let query = urlLib.parse(url, true).query;
+  return query[param];
 };
 
 //listen for request on port 3000, and as a callback function have the port listened on logged
