@@ -94,9 +94,9 @@ handleSuperheroApi = async url => {
  * Response for a request for all characters.
  */
 handleReqAll = url => {
-  let max = getParam('max', url);
-  let start = getParam('start', url);
-  let end = getParam('end', url);
+  let max = getParam("max", url);
+  let start = getParam("start", url);
+  let end = getParam("end", url);
   return {
     superheroes: allData.slice(start, max ? max : end).map(stripUnusedFields)
   };
