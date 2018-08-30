@@ -98,8 +98,20 @@ handleReqAll = url => {
   let start = getParam("start", url);
   let end = getParam("end", url);
   return {
-    superheroes: allData.slice(start, max ? max : end).map(stripUnusedFields)
+    superheroes: allData.sort(compare).slice(start, max ? max : end).map(stripUnusedFields)
   };
+};
+
+compare = (h1, h2) => {
+  var hid1 = Number(h1.id)
+  var hid2 = Number(h2.id)
+  if (hid1 == hid2) {
+    return 0;
+  } else if (hid1 < hid2) {
+    return -1;
+  } else {
+    return 1;
+  }
 };
 
 /**
