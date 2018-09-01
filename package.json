@@ -1,0 +1,27 @@
+{
+  "name": "superhero-server",
+  "version": "1.0.0",
+  "description": "A companion server for the superhero workshop on React by Deepti Gandhi",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/AniketSK/superhero-server.git"
+  },
+  "keywords": [
+    "server",
+    "learn",
+    "workshop",
+    "node",
+    "react"
+  ],
+  "author": "Aniket Kadam",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://bitbucket.org/AniketSK/superhero-server#readme",
+  "dependencies": {
+    "jest": "^23.5.0"
+  }
+}
