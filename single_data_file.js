@@ -26884,7 +26884,7 @@ const allData = [
   },
   {
     response: "success",
-    id: 7,
+    id: 41,
     name: "Adam Monroe",
     powerstats: {
       intelligence: 63,
@@ -27886,7 +27886,7 @@ const allData = [
   },
   {
     response: "success",
-    id: 41,
+    id: 7,
     name: "Wonder Woman",
     powerstats: {
       intelligence: 88,
