@@ -1530,7 +1530,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/259.jpg"
+      url: "https://image.ibb.co/jNaLCz/boomer.jpg"
     }
   },
   {
@@ -2928,41 +2928,6 @@ const allData = [
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/904.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 164,
-    name: "Cat II",
-    powerstats: {
-      intelligence: 86,
-      strength: 95,
-      speed: 5,
-      durability: 88,
-      power: 79,
-      combat: 27
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Female",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/903.jpg"
     }
   },
   {
@@ -11931,41 +11896,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 362,
-    name: "Jessica Sanders",
-    powerstats: {
-      intelligence: 0,
-      strength: 56,
-      speed: 55,
-      durability: 94,
-      power: 31,
-      combat: 13
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "NBC - Heroes",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Female",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1029.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 363,
     name: "Jigsaw",
     powerstats: {
@@ -15783,7 +15713,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1333.jpg"
+      url: "https://image.ibb.co/k1c62z/meteorite.png"
     }
   },
   {
@@ -16023,7 +15953,7 @@ const allData = [
   {
     response: "success",
     id: 453,
-    name: "Minna Murray",
+    name: "Mina Murray",
     powerstats: {
       intelligence: 61,
       strength: 89,
@@ -16052,7 +15982,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/881.jpg"
+      url: "https://image.ibb.co/gYwYhz/mina.jpg"
     }
   },
   {
@@ -18521,41 +18451,6 @@ const allData = [
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/929.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 512,
-    name: "Penance I",
-    powerstats: {
-      intelligence: 62,
-      strength: 76,
-      speed: 96,
-      durability: 81,
-      power: 91,
-      combat: 27
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Female",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/930.jpg"
     }
   },
   {
@@ -22106,7 +22001,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1188.jpg"
+      url: "https://image.ibb.co/hN4m2z/shrinkingviolet.jpg"
     }
   },
   {
@@ -22227,7 +22122,7 @@ const allData = [
       relatives: "Silk Spectre II (daughter)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1057.jpg"
+      url: "https://image.ibb.co/bTMihz/silk_spectre.jpg"
     }
   },
   {
@@ -22601,7 +22496,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1386.jpg"
+      url: "https://image.ibb.co/krTDhz/siren.jpg"
     }
   },
   {
@@ -23496,41 +23391,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 624,
-    name: "Spider-Woman II",
-    powerstats: {
-      intelligence: 26,
-      strength: 49,
-      speed: 15,
-      durability: 91,
-      power: 61,
-      combat: 48
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Female",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/483.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 625,
     name: "Spider-Woman III",
     powerstats: {
@@ -23716,7 +23576,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/485.jpg"
+      url: "https://image.ibb.co/mb1zNz/stacyx.jpg"
     }
   },
   {
@@ -24663,7 +24523,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1112.jpg"
+      url: "https://image.ibb.co/mukvUe/batgirliii.jpg"
     }
   },
   {
@@ -25558,7 +25418,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1115.jpg"
+      url: "https://image.ibb.co/d8tX9e/misfit.jpg"
     }
   },
   {
@@ -26148,7 +26008,7 @@ const allData = [
       relatives: "Phil (brother)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/145.jpg"
+      url: "https://image.ibb.co/dE9E5K/vagabond.jpg"
     }
   },
   {
@@ -26568,7 +26428,7 @@ const allData = [
       relatives: "-"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/149.jpg"
+      url: "https://image.ibb.co/fKeiXz/vertigo2.jpg"
     }
   },
   {
@@ -27170,7 +27030,7 @@ const allData = [
       relatives: "Joseph (father), Marie (mother), Steve (brother, deceased),"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/153.jpg"
+      url: "https://image.ibb.co/e4u0Cz/warbird.jpg"
     }
   },
   {
@@ -27529,7 +27389,7 @@ const allData = [
         "Winston (father), Hazel (mother), Cordelia (sister), Adrienne (sister, deceased), Christian (brother), Steven (brother-in-law, deceased), Jocasta (cousin)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/157.jpg"
+      url: "https://image.ibb.co/ev9OZe/whitequeen.jpg"
     }
   },
   {
@@ -27967,7 +27827,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1290.jpg"
+      url: "https://image.ibb.co/dssgdU/wondra.png"
     }
   },
   {
