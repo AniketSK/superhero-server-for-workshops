@@ -20,12 +20,12 @@ test("check start and end params", () => {
   const items = result.map(i => {
     return { id: i.id };
   });
-  expect(items).toContainEqual(expect.objectContaining({ id: "14" }));
+  expect(items).toContainEqual(expect.objectContaining({ id: 14 }));
   expect(items).toEqual([
-    { id: "11" },
-    { id: "12" },
-    { id: "13" },
-    { id: "14" },
-    { id: "15" }
+    { id: 11 },
+    { id: 12 },
+    { id: 13 },
+    { id: 14 },
+    { id: 15 }
   ]);
 });

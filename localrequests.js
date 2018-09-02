@@ -21,8 +21,8 @@ handleReqAll = url => {
 };
 
 compare = (h1, h2) => {
-  var hid1 = Number(h1.id);
-  var hid2 = Number(h2.id);
+  var hid1 = h1.id;
+  var hid2 = h2.id;
   if (hid1 == hid2) {
     return 0;
   } else if (hid1 < hid2) {
