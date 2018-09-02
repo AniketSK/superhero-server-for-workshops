@@ -167,41 +167,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 101,
-    name: "Black Goliath",
-    powerstats: {
-      intelligence: 49,
-      strength: 66,
-      speed: 46,
-      durability: 58,
-      power: 73,
-      combat: 42
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/245.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 102,
     name: "Black Knight III",
     powerstats: {
@@ -711,44 +676,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 113,
-    name: "Blaquesmith",
-    powerstats: {
-      intelligence: 73,
-      strength: 90,
-      speed: 87,
-      durability: 85,
-      power: 65,
-      combat: 34
-    },
-    biography: {
-      "full-name": "-",
-      "alter-egos": "Vertigo II",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Vertigo II",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "-",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "Black",
-      "hair-color": "No Hair"
-    },
-    work: { occupation: "Inventor", base: "Baltimore, Maryland" },
-    connections: {
-      "group-affiliation": "Clan Askani/Clan Chosen",
-      relatives: "-"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/34.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 114,
     name: "Bling!",
     powerstats: {
@@ -874,41 +801,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/899.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 117,
-    name: "Blizzard",
-    powerstats: {
-      intelligence: 5,
-      strength: 72,
-      speed: 3,
-      durability: 66,
-      power: 27,
-      combat: 6
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/898.jpg"
     }
   },
   {
@@ -1187,41 +1079,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 124,
-    name: "Blue Beetle",
-    powerstats: {
-      intelligence: 49,
-      strength: 7,
-      speed: 19,
-      durability: 48,
-      power: 89,
-      combat: 97
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "DC Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1010.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 125,
     name: "Blue Beetle II",
     powerstats: {
@@ -1341,41 +1198,6 @@ const allData = [
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/10467.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 128,
-    name: "Bolt",
-    powerstats: {
-      intelligence: 86,
-      strength: 78,
-      speed: 82,
-      durability: 49,
-      power: 88,
-      combat: 69
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1340.jpg"
     }
   },
   {
@@ -1529,85 +1351,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/jNaLCz/boomer.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 133,
-    name: "Box",
-    powerstats: {
-      intelligence: 55,
-      strength: 28,
-      speed: 58,
-      durability: 36,
-      power: 55,
-      combat: 91
-    },
-    biography: {
-      "full-name": "Roger Bochs",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Omega"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/864.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 134,
-    name: "Box III",
-    powerstats: {
-      intelligence: 52,
-      strength: 31,
-      speed: 34,
-      durability: 90,
-      power: 52,
-      combat: 83
-    },
-    biography: {
-      "full-name": "Dr. Walter Langowski",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Box III", "Wanda"],
-      "place-of-birth": "British Columbia",
-      "first-appearance": "First appearance unknown",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "-",
-      race: "null",
-      height: ["6'4", "193 cm"],
-      weight: ["245 lb", "110 kg"],
-      "eye-color": "Blue",
-      "hair-color": "Blond"
-    },
-    work: {
-      occupation: "Physics professor, former NFL player",
-      base: "Base of operations unknown"
-    },
-    connections: {
-      "group-affiliation": "Alpha Flight",
-      relatives: "No known relatives"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/37.jpg"
-    }
+    image: { url: "https://image.ibb.co/jNaLCz/boomer.jpg" }
   },
   {
     response: "success",
@@ -1986,41 +1730,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/1542.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 143,
-    name: "Bumbleboy",
-    powerstats: {
-      intelligence: 50,
-      strength: 51,
-      speed: 31,
-      durability: 77,
-      power: 8,
-      combat: 27
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "New X-Men #153",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1346.jpg"
     }
   },
   {
@@ -3742,41 +3451,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 184,
-    name: "Colossal Boy",
-    powerstats: {
-      intelligence: 13,
-      strength: 76,
-      speed: 60,
-      durability: 63,
-      power: 43,
-      combat: 42
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "DC Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1182.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 185,
     name: "Colossus",
     powerstats: {
@@ -4738,41 +4412,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/668.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 205,
-    name: "Darkside",
-    powerstats: {
-      intelligence: 52,
-      strength: 16,
-      speed: 63,
-      durability: 56,
-      power: 27,
-      combat: 85
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "null",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "-",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/840.jpg"
     }
   },
   {
@@ -6515,41 +6154,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 244,
-    name: "ERG-1",
-    powerstats: {
-      intelligence: 50,
-      strength: 44,
-      speed: 25,
-      durability: 57,
-      power: 30,
-      combat: 98
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "DC Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1187.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 245,
     name: "Ethan Hunt",
     powerstats: {
@@ -8204,76 +7808,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 282,
-    name: "Giant-Man",
-    powerstats: {
-      intelligence: 60,
-      strength: 78,
-      speed: 55,
-      durability: 95,
-      power: 71,
-      combat: 8
-    },
-    biography: {
-      "full-name": "Hank Pym",
-      "alter-egos": "Ant-Man, Goliath, Wasp II, Yellowjacket",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Ant-Man",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/858.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 283,
-    name: "Giant-Man II",
-    powerstats: {
-      intelligence: 36,
-      strength: 52,
-      speed: 46,
-      durability: 22,
-      power: 13,
-      combat: 59
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/343.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 284,
     name: "Giganta",
     powerstats: {
@@ -8445,44 +7979,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 288,
-    name: "Gog",
-    powerstats: {
-      intelligence: 50,
-      strength: 34,
-      speed: 47,
-      durability: 72,
-      power: 39,
-      combat: 56
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Nephut-Sha", "Hassan Kareem"],
-      "place-of-birth": "-",
-      "first-appearance": "Incredible Hulk #257 (1981)",
-      publisher: "DC Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: {
-      "group-affiliation": "Sinister Six",
-      relatives: 'Seth (creator), Magog ("brother")'
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/693.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 289,
     name: "Goku",
     powerstats: {
@@ -8563,111 +8059,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/1307.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 290,
-    name: "Goliath",
-    powerstats: {
-      intelligence: 62,
-      strength: 46,
-      speed: 59,
-      durability: 90,
-      power: 47,
-      combat: 15
-    },
-    biography: {
-      "full-name": "Erik Josten",
-      "alter-egos": "Atlas, Power Man, Smuggler",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Atlas",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/845.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 291,
-    name: "Goliath",
-    powerstats: {
-      intelligence: 19,
-      strength: 11,
-      speed: 35,
-      durability: 71,
-      power: 1,
-      combat: 5
-    },
-    biography: {
-      "full-name": "Clint Barton",
-      "alter-egos": "Hawkeye, Ronin",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Hawkeye",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/847.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 292,
-    name: "Goliath",
-    powerstats: {
-      intelligence: 42,
-      strength: 3,
-      speed: 87,
-      durability: 2,
-      power: 19,
-      combat: 12
-    },
-    biography: {
-      "full-name": "Hank Pym",
-      "alter-egos": "Ant-Man, Giant-Man, Wasp II, Yellowjacket",
-      aliases: ["Hank Pym"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Ant-Man",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/846.jpg"
     }
   },
   {
@@ -10468,57 +9859,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 331,
-    name: "Howard the Duck",
-    powerstats: {
-      intelligence: 26,
-      strength: 44,
-      speed: 27,
-      durability: 34,
-      power: 25,
-      combat: 38
-    },
-    biography: {
-      "full-name": "Howard (Last name unrevealed)",
-      "alter-egos": "No alter egos found.",
-      aliases: [
-        "Duckman",
-        "Iron Duck",
-        "Pondhopper",
-        "Shang-Op",
-        "Cheap Ducktective",
-        "Duckboy",
-        "Dark Mallard of the Night"
-      ],
-      "place-of-birth": "New Stork, New Stork, Duckworld",
-      "first-appearance": "FEAR #19",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["2'7'", "79 cm"],
-      weight: ["40 lb", "18 kg"],
-      "eye-color": "Brown",
-      "hair-color": "Yellow"
-    },
-    work: {
-      occupation:
-        "Many and various, including former candidate for the United States presidency but usually unemployed",
-      base: "Cleveland, Ohio"
-    },
-    connections: {
-      "group-affiliation": "No known group affiliation",
-      relatives:
-        "(according to one account) Ronald (father), Henrietta (mother), Theresa (sister), Orville (brother)"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/82.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 332,
     name: "Hulk",
     powerstats: {
@@ -12089,47 +11429,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 369,
-    name: "John Wraith",
-    powerstats: {
-      intelligence: 75,
-      strength: 12,
-      speed: 35,
-      durability: 28,
-      power: 87,
-      combat: 80
-    },
-    biography: {
-      "full-name": "John Wraith",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Wraith-Man", "Kestrel", "Expediter", "Guardian", "Vindicator"],
-      "place-of-birth": "-",
-      "first-appearance": "Wolverine Vol 2 #60 (September, 1992)",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["6'0", "183 cm"],
-      weight: ["195 lb", "88 kg"],
-      "eye-color": "Brown",
-      "hair-color": "Black"
-    },
-    work: {
-      occupation: "Former Spy, Government Operative, Mercenary, Soldier",
-      base: "-"
-    },
-    connections: {
-      "group-affiliation": "Weapon X Program, Team X, C.I.A.",
-      relatives: "-"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1314.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 37,
     name: "Aqualad",
     powerstats: {
@@ -12835,41 +12134,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/722.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 385,
-    name: "Kid Flash II",
-    powerstats: {
-      intelligence: 75,
-      strength: 47,
-      speed: 59,
-      durability: 73,
-      power: 41,
-      combat: 69
-    },
-    biography: {
-      "full-name": "Bartholomew Allen II",
-      "alter-egos": "Flash IV, Impulse",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Flash IV",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/894.jpg"
     }
   },
   {
@@ -15712,9 +14976,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/k1c62z/meteorite.png"
-    }
+    image: { url: "https://image.ibb.co/k1c62z/meteorite.png" }
   },
   {
     response: "success",
@@ -15981,9 +15243,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/gYwYhz/mina.jpg"
-    }
+    image: { url: "https://image.ibb.co/gYwYhz/mina.jpg" }
   },
   {
     response: "success",
@@ -16220,41 +15480,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 46,
-    name: "Arsenal",
-    powerstats: {
-      intelligence: 48,
-      strength: 54,
-      speed: 93,
-      durability: 30,
-      power: 71,
-      combat: 83
-    },
-    biography: {
-      "full-name": "Roy William Harper, Jr.",
-      "alter-egos": "Speedy",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Speedy",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1014.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 460,
     name: "Mister Sinister",
     powerstats: {
@@ -16308,41 +15533,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/856.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 461,
-    name: "Mister Zsasz",
-    powerstats: {
-      intelligence: 88,
-      strength: 22,
-      speed: 33,
-      durability: 28,
-      power: 18,
-      combat: 85
-    },
-    biography: {
-      "full-name": "Victor Zsasz",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Mr Zsasz"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "DC Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "Blue",
-      "hair-color": "Blond"
-    },
-    work: { occupation: "Serial Killer", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1486.jpg"
     }
   },
   {
@@ -16891,41 +16081,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 475,
-    name: "Mr Immortal",
-    powerstats: {
-      intelligence: 50,
-      strength: 10,
-      speed: 8,
-      durability: 100,
-      power: 69,
-      combat: 30
-    },
-    biography: {
-      "full-name": "Craig Hollis",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "West Coast Avengers Vol 2 #46",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Mutant",
-      height: ["6'2", "188 cm"],
-      weight: ["156 lb", "70 kg"],
-      "eye-color": "Blue",
-      "hair-color": "Blond"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/10794.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 476,
     name: "Mr Incredible",
     powerstats: {
@@ -17249,41 +16404,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/137.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 482,
-    name: "Namor",
-    powerstats: {
-      intelligence: 86,
-      strength: 78,
-      speed: 88,
-      durability: 5,
-      power: 68,
-      combat: 80
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/105.jpg"
     }
   },
   {
@@ -18350,41 +17470,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 51,
-    name: "Atom",
-    powerstats: {
-      intelligence: 96,
-      strength: 46,
-      speed: 60,
-      durability: 59,
-      power: 7,
-      combat: 10
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "DC Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1379.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 510,
     name: "Paul Blart",
     powerstats: {
@@ -18416,41 +17501,6 @@ const allData = [
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/10479.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 511,
-    name: "Penance",
-    powerstats: {
-      intelligence: 57,
-      strength: 18,
-      speed: 87,
-      durability: 17,
-      power: 98,
-      combat: 2
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "-",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/929.jpg"
     }
   },
   {
@@ -18654,41 +17704,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/10487.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 519,
-    name: "Plastic Lad",
-    powerstats: {
-      intelligence: 61,
-      strength: 86,
-      speed: 80,
-      durability: 5,
-      power: 63,
-      combat: 6
-    },
-    biography: {
-      "full-name": "Luke O'Brian",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Offspring"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "DC Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1299.jpg"
     }
   },
   {
@@ -18940,41 +17955,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/758.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 525,
-    name: "Power Man",
-    powerstats: {
-      intelligence: 28,
-      strength: 82,
-      speed: 69,
-      durability: 79,
-      power: 18,
-      combat: 5
-    },
-    biography: {
-      "full-name": "Luke Cage",
-      "alter-egos": "Luke Cage",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Luke Cage",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Mutant",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1016.jpg"
     }
   },
   {
@@ -19339,41 +18319,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 533,
-    name: "Q",
-    powerstats: {
-      intelligence: 100,
-      strength: 12,
-      speed: 17,
-      durability: 100,
-      power: 100,
-      combat: 40
-    },
-    biography: {
-      "full-name": "Q",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Q Continuum"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Star Trek",
-      alignment: "-"
-    },
-    appearance: {
-      gender: "Male",
-      race: "God / Eternal",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/10578.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 534,
     name: "Quantum",
     powerstats: {
@@ -19603,44 +18548,6 @@ const allData = [
     connections: { "group-affiliation": "Alphas", relatives: "-" },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/1530.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 54,
-    name: "Atom III",
-    powerstats: {
-      intelligence: 35,
-      strength: 64,
-      speed: 9,
-      durability: 68,
-      power: 30,
-      combat: 37
-    },
-    biography: {
-      "full-name": "Adam Cray",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "Suicide Squad (Volume 1) #44",
-      publisher: "DC Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "Red"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: {
-      "group-affiliation": "Suicide Squad",
-      relatives: "Senator Cray (father, deceased)"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/939.jpg"
     }
   },
   {
@@ -20192,76 +19099,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 552,
-    name: "Redeemer II",
-    powerstats: {
-      intelligence: 46,
-      strength: 98,
-      speed: 77,
-      durability: 22,
-      power: 62,
-      combat: 55
-    },
-    biography: {
-      "full-name": "Phil Timper",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "Spawn #31",
-      publisher: "Image Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1081.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 553,
-    name: "Redeemer III",
-    powerstats: {
-      intelligence: 25,
-      strength: 35,
-      speed: 51,
-      durability: 94,
-      power: 48,
-      combat: 41
-    },
-    biography: {
-      "full-name": "Eddie Frank",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Image Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1092.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 554,
     name: "Renata Soliz",
     powerstats: {
@@ -20793,63 +19630,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/10010.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 568,
-    name: "Ronin",
-    powerstats: {
-      intelligence: 56,
-      strength: 12,
-      speed: 21,
-      durability: 10,
-      power: 13,
-      combat: 80
-    },
-    biography: {
-      "full-name": "Clint Barton",
-      "alter-egos": "Goliath, Hawkeye",
-      aliases: [
-        "Formerly Hawkeye",
-        "the Marksman",
-        "'Br'er Hawkeye'",
-        "Superhuman Cellblock Prisoner 334556",
-        "Longbow",
-        "Goliath",
-        "Father Time",
-        "Louis",
-        "Robin Hood",
-        "the Hawkeye Kid",
-        "Golden Archer",
-        "'Purple Man'; impersonated Constrictor & Dreadknight"
-      ],
-      "place-of-birth": "Waverly, Iowa",
-      "first-appearance": "-",
-      publisher: "Goliath",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["6'3", "191 cm"],
-      weight: ["230 lb", "104 kg"],
-      "eye-color": "Blue",
-      "hair-color": "Blond"
-    },
-    work: {
-      occupation:
-        "Outlaw adventurer, revolutionary; former professional super hero, fugitive, unnoficial S.H.I.E.L.D. operative, federal inmate, CTE security chief, ranch hand, archery tutor, carnival performer, roustabout, butcher shop worker",
-      base: "-"
-    },
-    connections: {
-      "group-affiliation":
-        "Avengers; formerly founding member of Avengers West Coast and first chairman, Thunderbolts, S.H.I.E.L.D. (unofficial), Chain Gang 421-011, Shadows, Great Lakes Avengers, Cross Technological Enterprises, Defenders, Carson Carnival of Traveling Wonders, Ti",
-      relatives:
-        "Harold Barton (father), Edith Barton (mother), Charles Bernard \"Barney\" Barton (brother), Barbara Morse 'Bobbi' Barton (Mockingbird, wife), Brett Barton (ancestor), Mack Barton (ancestor); all deceased"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1202.jpg"
     }
   },
   {
@@ -21472,41 +20252,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 582,
-    name: "Sebastian Shaw",
-    powerstats: {
-      intelligence: 63,
-      strength: 85,
-      speed: 12,
-      durability: 95,
-      power: 36,
-      combat: 56
-    },
-    biography: {
-      "full-name": "Sebastian Hiram Shaw",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Mutant",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1482.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 583,
     name: "Sentry",
     powerstats: {
@@ -22000,9 +20745,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/hN4m2z/shrinkingviolet.jpg"
-    }
+    image: { url: "https://image.ibb.co/hN4m2z/shrinkingviolet.jpg" }
   },
   {
     response: "success",
@@ -22121,9 +20864,7 @@ const allData = [
       "group-affiliation": "Watchmen, Minutemen",
       relatives: "Silk Spectre II (daughter)"
     },
-    image: {
-      url: "https://image.ibb.co/bTMihz/silk_spectre.jpg"
-    }
+    image: { url: "https://image.ibb.co/bTMihz/silk_spectre.jpg" }
   },
   {
     response: "success",
@@ -22495,9 +21236,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/krTDhz/siren.jpg"
-    }
+    image: { url: "https://image.ibb.co/krTDhz/siren.jpg" }
   },
   {
     response: "success",
@@ -22949,48 +21688,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 614,
-    name: "Speedball",
-    powerstats: {
-      intelligence: 0,
-      strength: 40,
-      speed: 97,
-      durability: 27,
-      power: 71,
-      combat: 31
-    },
-    biography: {
-      "full-name": "Robert Baldwin",
-      "alter-egos": "Penance II",
-      aliases: ["Penance", "Masked Marvel"],
-      "place-of-birth": "Springdale, Connecticut",
-      "first-appearance":
-        "Amazing Spider-Man Annual #22, (chronologically) Speedball #1",
-      publisher: "Penance II",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: {
-      occupation: "Student, superhero",
-      base: "Mobile; formerly New Warriors Headquarters"
-    },
-    connections: {
-      "group-affiliation": "New Warriors",
-      relatives: "Maddie Baldwin (mother), Justin Baldwin (father)"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/132.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 615,
     name: "Speedy",
     powerstats: {
@@ -23026,41 +21723,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/10558.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 616,
-    name: "Speedy",
-    powerstats: {
-      intelligence: 65,
-      strength: 2,
-      speed: 73,
-      durability: 89,
-      power: 59,
-      combat: 18
-    },
-    biography: {
-      "full-name": "Roy William Harper, Jr.",
-      "alter-egos": "Arsenal",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Arsenal",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "Human",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1015.jpg"
     }
   },
   {
@@ -23575,9 +22237,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/mb1zNz/stacyx.jpg"
-    }
+    image: { url: "https://image.ibb.co/mb1zNz/stacyx.jpg" }
   },
   {
     response: "success",
@@ -24522,9 +23182,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/mukvUe/batgirliii.jpg"
-    }
+    image: { url: "https://image.ibb.co/mukvUe/batgirliii.jpg" }
   },
   {
     response: "success",
@@ -25068,41 +23726,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 662,
-    name: "Thunderbird II",
-    powerstats: {
-      intelligence: 14,
-      strength: 1,
-      speed: 19,
-      durability: 13,
-      power: 60,
-      combat: 72
-    },
-    biography: {
-      "full-name": "James Proudstar",
-      "alter-egos": "Warpath",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Warpath",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/927.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 663,
     name: "Thunderbird III",
     powerstats: {
@@ -25417,9 +24040,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/d8tX9e/misfit.jpg"
-    }
+    image: { url: "https://image.ibb.co/d8tX9e/misfit.jpg" }
   },
   {
     response: "success",
@@ -26007,9 +24628,7 @@ const allData = [
       "group-affiliation": "Former partner of Nomad",
       relatives: "Phil (brother)"
     },
-    image: {
-      url: "https://image.ibb.co/dE9E5K/vagabond.jpg"
-    }
+    image: { url: "https://image.ibb.co/dE9E5K/vagabond.jpg" }
   },
   {
     response: "success",
@@ -26427,9 +25046,7 @@ const allData = [
         "Former member of the Savage Land Mutates, later a member of the Marauders",
       relatives: "-"
     },
-    image: {
-      url: "https://image.ibb.co/fKeiXz/vertigo2.jpg"
-    }
+    image: { url: "https://image.ibb.co/fKeiXz/vertigo2.jpg" }
   },
   {
     response: "success",
@@ -26508,41 +25125,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/150.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 694,
-    name: "Vindicator",
-    powerstats: {
-      intelligence: 59,
-      strength: 87,
-      speed: 64,
-      durability: 20,
-      power: 78,
-      combat: 47
-    },
-    biography: {
-      "full-name": "Dr. James McDonald Hudson",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/530.jpg"
     }
   },
   {
@@ -26665,41 +25247,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/532.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 698,
-    name: "Vision II",
-    powerstats: {
-      intelligence: 81,
-      strength: 23,
-      speed: 92,
-      durability: 10,
-      power: 7,
-      combat: 11
-    },
-    biography: {
-      "full-name": "Vision",
-      "alter-egos": "Anti-Vision, Vision",
-      aliases: ["Victor Shade", "Ghost of Stone"],
-      "place-of-birth": "Place of birth unknown",
-      "first-appearance": "Avengers (Vol. 1) #57",
-      publisher: "Anti-Vision",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "-",
-      race: "null",
-      height: ["6'3'", "191 cm"],
-      weight: ["300 lb", "135 kg"],
-      "eye-color": "Red",
-      "hair-color": "No Hair"
-    },
-    work: { occupation: "Adventurer", base: "Avengers Mansion, New York City" },
-    connections: { "group-affiliation": "Avengers", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/151.jpg"
     }
   },
   {
@@ -27029,9 +25576,7 @@ const allData = [
         "currently Avengers, former companion to the X-Men (as Carol Danvers), former member of the Starjammers (as Binary), Former Avenger (as Ms. Marvel)",
       relatives: "Joseph (father), Marie (mother), Steve (brother, deceased),"
     },
-    image: {
-      url: "https://image.ibb.co/e4u0Cz/warbird.jpg"
-    }
+    image: { url: "https://image.ibb.co/e4u0Cz/warbird.jpg" }
   },
   {
     response: "success",
@@ -27279,41 +25824,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 710,
-    name: "Weapon XI",
-    powerstats: {
-      intelligence: 30,
-      strength: 98,
-      speed: 82,
-      durability: 84,
-      power: 76,
-      combat: 33
-    },
-    biography: {
-      "full-name": "Weapon XI",
-      "alter-egos": "No alter egos found.",
-      aliases: ["weapon 10"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1318.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 711,
     name: "White Canary",
     powerstats: {
@@ -27388,9 +25898,7 @@ const allData = [
       relatives:
         "Winston (father), Hazel (mother), Cordelia (sister), Adrienne (sister, deceased), Christian (brother), Steven (brother-in-law, deceased), Jocasta (cousin)"
     },
-    image: {
-      url: "https://image.ibb.co/ev9OZe/whitequeen.jpg"
-    }
+    image: { url: "https://image.ibb.co/ev9OZe/whitequeen.jpg" }
   },
   {
     response: "success",
@@ -27473,47 +25981,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/10027.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 715,
-    name: "Wiz Kid",
-    powerstats: {
-      intelligence: 63,
-      strength: 18,
-      speed: 65,
-      durability: 20,
-      power: 22,
-      combat: 79
-    },
-    biography: {
-      "full-name": "Takashi Matsuya",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "Place of birth unknown",
-      "first-appearance": "X-TERMINATORS # 1",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "-",
-      race: "null",
-      height: ["4'7'", "140 cm"],
-      weight: ["87 lb", "39 kg"],
-      "eye-color": "Brown",
-      "hair-color": "Black"
-    },
-    work: {
-      occupation: "Student",
-      base: "Saint Simons Academy, New Hampshire"
-    },
-    connections: {
-      "group-affiliation": "X-Terminators",
-      relatives: "Unnamed parents deceased"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/159.jpg"
     }
   },
   {
@@ -27826,9 +26293,7 @@ const allData = [
     },
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://image.ibb.co/dssgdU/wondra.png"
-    }
+    image: { url: "https://image.ibb.co/dssgdU/wondra.png" }
   },
   {
     response: "success",
@@ -27965,45 +26430,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/1150.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 725,
-    name: "Yellow Claw",
-    powerstats: {
-      intelligence: 61,
-      strength: 42,
-      speed: 34,
-      durability: 86,
-      power: 83,
-      combat: 63
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["The Claw"],
-      "place-of-birth": "Somewhere in mainland China",
-      "first-appearance":
-        "(historical) YELLOW CLAW #1; (modern) (telepathic 'voice' of Yellow Claw) STRANGE TALES #160, (robot Yellow Claw) STRANGE TALES # 161, (actual Yellow Claw)CAPTAIN AMERICA #164",
-      publisher: "Marvel Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["6'2", "188 cm"],
-      weight: ["210 lb", "95 kg"],
-      "eye-color": "Blue",
-      "hair-color": "No Hair"
-    },
-    work: {
-      occupation: "Would-be conqueror",
-      base: "Various hidden bases throughout the world"
-    },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/23.jpg"
     }
   },
   {
@@ -28291,46 +26717,6 @@ const allData = [
   },
   {
     response: "success",
-    id: 74,
-    name: "Beak",
-    powerstats: {
-      intelligence: 54,
-      strength: 88,
-      speed: 83,
-      durability: 63,
-      power: 2,
-      combat: 28
-    },
-    biography: {
-      "full-name": "Barnell Bohusk",
-      "alter-egos": "No alter egos found.",
-      aliases: ["Blackwing"],
-      "place-of-birth": "Cheverly, Maryland",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "good"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["5'9", "175 cm"],
-      weight: ["140 lb", "63 kg"],
-      "eye-color": "Black",
-      "hair-color": "White"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: {
-      "group-affiliation":
-        "Formerly New Warriors, Exiles, Brotherhood Of Mutants, Xavier Institute Student Body",
-      relatives:
-        "Charles (father), Kathy (mother), Angel Salvadore (wife), Tito (son), Axel (son), Kara (daughter), three unidentified children"
-    },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/232.jpg"
-    }
-  },
-  {
-    response: "success",
     id: 75,
     name: "Beast",
     powerstats: {
@@ -28431,41 +26817,6 @@ const allData = [
     },
     image: {
       url: "https://www.superherodb.com/pictures2/portraits/10/100/640.jpg"
-    }
-  },
-  {
-    response: "success",
-    id: 77,
-    name: "Beetle",
-    powerstats: {
-      intelligence: 34,
-      strength: 54,
-      speed: 55,
-      durability: 29,
-      power: 51,
-      combat: 97
-    },
-    biography: {
-      "full-name": "",
-      "alter-egos": "No alter egos found.",
-      aliases: ["-"],
-      "place-of-birth": "-",
-      "first-appearance": "-",
-      publisher: "Marvel Comics",
-      alignment: "bad"
-    },
-    appearance: {
-      gender: "Male",
-      race: "null",
-      height: ["-", "0 cm"],
-      weight: ["- lb", "0 kg"],
-      "eye-color": "-",
-      "hair-color": "-"
-    },
-    work: { occupation: "-", base: "-" },
-    connections: { "group-affiliation": "-", relatives: "-" },
-    image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1122.jpg"
     }
   },
   {
@@ -29435,5 +27786,4 @@ const allData = [
     }
   }
 ];
-
 exports.allData = allData;
