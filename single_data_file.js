@@ -12,7 +12,7 @@ const allData = [
       combat: 70
     },
     biography: {
-      "full-name": "Shrui",
+      "full-name": "Shuri",
       "alter-egos": "Black Panther",
       aliases: ["Shuri, Griot"],
       "place-of-birth": "Wakanda",
