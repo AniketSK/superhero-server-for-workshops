@@ -29,17 +29,15 @@ const allData = [
       "hair-color": "Black"
     },
     work: {
-      occupation:
-        "Head of the Science and Information Exchange.",
+      occupation: "Head of the Science and Information Exchange.",
       base: "Wakanda"
     },
     connections: {
       "group-affiliation": "Wakandan Design Group",
-      relatives: "T'Challa (brother), Bashenga (paternal ancestor, deceased), Azzuri the Wise (paternal grandfather, deceased), Nanali (paternal grandmother, deceased), Chanda (paternal grandfather, presumably deceased), T?Chaka (father, deceased), S'Yan (uncle, deceased), N?Yami (mother, deceased), Ramonda (stepmother), Hunter (adopted brother), Jakarra (half-brother)"
+      relatives:
+        "T'Challa (brother), Bashenga (paternal ancestor, deceased), Azzuri the Wise (paternal grandfather, deceased), Nanali (paternal grandmother, deceased), Chanda (paternal grandfather, presumably deceased), T?Chaka (father, deceased), S'Yan (uncle, deceased), N?Yami (mother, deceased), Ramonda (stepmother), Hunter (adopted brother), Jakarra (half-brother)"
     },
-    image: {
-      url: "https://image.ibb.co/hFrbCp/shuri.jpg"
-    }
+    image: { url: "https://image.ibb.co/hFrbCp/shuri.jpg" }
   },
   {
     response: "success",
@@ -172,12 +170,12 @@ const allData = [
     id: 101,
     name: "Black Goliath",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 49,
+      strength: 66,
+      speed: 46,
+      durability: 58,
+      power: 73,
+      combat: 42
     },
     biography: {
       "full-name": "",
@@ -474,12 +472,12 @@ const allData = [
     id: 108,
     name: "Black Widow II",
     powerstats: {
-      intelligence: null,
+      intelligence: 14,
       strength: 48,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 90,
+      durability: 82,
+      power: 39,
+      combat: 24
     },
     biography: {
       "full-name": "Yelena Belova",
@@ -716,12 +714,12 @@ const allData = [
     id: 113,
     name: "Blaquesmith",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 73,
+      strength: 90,
+      speed: 87,
+      durability: 85,
+      power: 65,
+      combat: 34
     },
     biography: {
       "full-name": "-",
@@ -840,12 +838,12 @@ const allData = [
     id: 116,
     name: "Blizzard",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 21,
+      strength: 65,
+      speed: 7,
+      durability: 22,
+      power: 14,
+      combat: 87
     },
     biography: {
       "full-name": "Gregor Shapanka",
@@ -883,12 +881,12 @@ const allData = [
     id: 117,
     name: "Blizzard",
     powerstats: {
-      intelligence: null,
+      intelligence: 5,
       strength: 72,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 3,
+      durability: 66,
+      power: 27,
+      combat: 6
     },
     biography: {
       "full-name": "",
@@ -1118,12 +1116,12 @@ const allData = [
     id: 122,
     name: "Bloodwraith",
     powerstats: {
-      intelligence: null,
+      intelligence: 28,
       strength: 72,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 37,
+      durability: 63,
+      power: 88,
+      combat: 89
     },
     biography: {
       "full-name": "Sean Dolan",
@@ -1154,12 +1152,12 @@ const allData = [
     id: 123,
     name: "Blue Beetle",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 22,
+      strength: 32,
+      speed: 90,
+      durability: 67,
+      power: 98,
+      combat: 59
     },
     biography: {
       "full-name": "Daniel Garrett",
@@ -1192,12 +1190,12 @@ const allData = [
     id: 124,
     name: "Blue Beetle",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 49,
+      strength: 7,
+      speed: 19,
+      durability: 48,
+      power: 89,
+      combat: 97
     },
     biography: {
       "full-name": "",
@@ -1227,12 +1225,12 @@ const allData = [
     id: 125,
     name: "Blue Beetle II",
     powerstats: {
-      intelligence: null,
+      intelligence: 91,
       strength: 45,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 18,
+      durability: 80,
+      power: 91,
+      combat: 24
     },
     biography: {
       "full-name": "Theodore Kord",
@@ -1350,12 +1348,12 @@ const allData = [
     id: 128,
     name: "Bolt",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 86,
+      strength: 78,
+      speed: 82,
+      durability: 49,
+      power: 88,
+      combat: 69
     },
     biography: {
       "full-name": "",
@@ -1385,12 +1383,12 @@ const allData = [
     id: 129,
     name: "Bomb Queen",
     powerstats: {
-      intelligence: null,
+      intelligence: 3,
       strength: 73,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 29,
+      durability: 88,
+      power: 29,
+      combat: 63
     },
     biography: {
       "full-name": "",
@@ -1505,12 +1503,12 @@ const allData = [
     id: 131,
     name: "Boomer",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 62,
+      strength: 98,
+      speed: 46,
+      durability: 47,
+      power: 98,
+      combat: 68
     },
     biography: {
       "full-name": "",
@@ -1540,12 +1538,12 @@ const allData = [
     id: 133,
     name: "Box",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 55,
+      strength: 28,
+      speed: 58,
+      durability: 36,
+      power: 55,
+      combat: 91
     },
     biography: {
       "full-name": "Roger Bochs",
@@ -1575,12 +1573,12 @@ const allData = [
     id: 134,
     name: "Box III",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 52,
+      strength: 31,
+      speed: 34,
+      durability: 90,
+      power: 52,
+      combat: 83
     },
     biography: {
       "full-name": "Dr. Walter Langowski",
@@ -1735,12 +1733,12 @@ const allData = [
     id: 138,
     name: "Brother Voodoo",
     powerstats: {
-      intelligence: null,
+      intelligence: 18,
       strength: 65,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 74,
+      durability: 52,
+      power: 64,
+      combat: 75
     },
     biography: {
       "full-name": "Jericho Drumm",
@@ -1995,12 +1993,12 @@ const allData = [
     id: 143,
     name: "Bumbleboy",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 50,
+      strength: 51,
+      speed: 31,
+      durability: 77,
+      power: 8,
+      combat: 27
     },
     biography: {
       "full-name": "",
@@ -2456,12 +2454,12 @@ const allData = [
     id: 153,
     name: "Captain Epic",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 99,
+      strength: 18,
+      speed: 96,
+      durability: 5,
+      power: 72,
+      combat: 17
     },
     biography: {
       "full-name": "",
@@ -2529,12 +2527,12 @@ const allData = [
     id: 155,
     name: "Captain Mar-vell",
     powerstats: {
-      intelligence: null,
+      intelligence: 47,
       strength: 80,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 63,
+      durability: 35,
+      power: 9,
+      combat: 64
     },
     biography: {
       "full-name": "Mar-Vell",
@@ -2706,12 +2704,12 @@ const allData = [
     id: 159,
     name: "Captain Midnight",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 54,
+      strength: 84,
+      speed: 81,
+      durability: 0,
+      power: 75,
+      combat: 85
     },
     biography: {
       "full-name": "",
@@ -2750,12 +2748,12 @@ const allData = [
     id: 16,
     name: "Alex Woolsly",
     powerstats: {
-      intelligence: null,
+      intelligence: 91,
       strength: 37,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 88,
+      durability: 73,
+      power: 41,
+      combat: 37
     },
     biography: {
       "full-name": "Alex Woolsly",
@@ -2823,12 +2821,12 @@ const allData = [
     id: 161,
     name: "Captain Universe",
     powerstats: {
-      intelligence: null,
+      intelligence: 40,
       strength: 92,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 54,
+      durability: 92,
+      power: 74,
+      combat: 63
     },
     biography: {
       "full-name": "",
@@ -2902,12 +2900,12 @@ const allData = [
     id: 163,
     name: "Cat",
     powerstats: {
-      intelligence: null,
+      intelligence: 30,
       strength: 90,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 83,
+      durability: 33,
+      power: 51,
+      combat: 44
     },
     biography: {
       "full-name": "Shirlee Bryant",
@@ -2937,12 +2935,12 @@ const allData = [
     id: 164,
     name: "Cat II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 86,
+      strength: 95,
+      speed: 5,
+      durability: 88,
+      power: 79,
+      combat: 27
     },
     biography: {
       "full-name": "",
@@ -3019,12 +3017,12 @@ const allData = [
     id: 166,
     name: "Cecilia Reyes",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 19,
+      strength: 46,
+      speed: 77,
+      durability: 73,
+      power: 74,
+      combat: 63
     },
     biography: {
       "full-name": "Dr. Cecilia Reyes",
@@ -3089,12 +3087,12 @@ const allData = [
     id: 168,
     name: "Cerebra",
     powerstats: {
-      intelligence: null,
+      intelligence: 55,
       strength: 57,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 63,
+      durability: 28,
+      power: 98,
+      combat: 35
     },
     biography: {
       "full-name": "Shakti Haddad",
@@ -3390,12 +3388,12 @@ const allData = [
     id: 175,
     name: "Chromos",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 88,
+      strength: 61,
+      speed: 48,
+      durability: 28,
+      power: 76,
+      combat: 12
     },
     biography: {
       "full-name": "Bernard Embers",
@@ -3552,12 +3550,12 @@ const allData = [
     id: 179,
     name: "Clea",
     powerstats: {
-      intelligence: null,
+      intelligence: 26,
       strength: 39,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 65,
+      durability: 41,
+      power: 62,
+      combat: 28
     },
     biography: {
       "full-name": "Clea",
@@ -3712,12 +3710,12 @@ const allData = [
     id: 182,
     name: "Cogliostro",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 89,
+      strength: 51,
+      speed: 69,
+      durability: 14,
+      power: 48,
+      combat: 82
     },
     biography: {
       "full-name": "Cain",
@@ -3747,12 +3745,12 @@ const allData = [
     id: 183,
     name: "Colin Wagner",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 39,
+      strength: 11,
+      speed: 34,
+      durability: 62,
+      power: 84,
+      combat: 51
     },
     biography: {
       "full-name": "",
@@ -3782,12 +3780,12 @@ const allData = [
     id: 184,
     name: "Colossal Boy",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 13,
+      strength: 76,
+      speed: 60,
+      durability: 63,
+      power: 43,
+      combat: 42
     },
     biography: {
       "full-name": "",
@@ -3915,12 +3913,12 @@ const allData = [
     id: 187,
     name: "Corsair",
     powerstats: {
-      intelligence: null,
+      intelligence: 98,
       strength: 16,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 20,
+      durability: 48,
+      power: 79,
+      combat: 26
     },
     biography: {
       "full-name": "Christopher Summers",
@@ -3992,12 +3990,12 @@ const allData = [
     id: 189,
     name: "Crimson Crusader",
     powerstats: {
-      intelligence: null,
+      intelligence: 43,
       strength: 58,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 99,
+      durability: 79,
+      power: 51,
+      combat: 59
     },
     biography: {
       "full-name": "Rory Destine",
@@ -4031,12 +4029,12 @@ const allData = [
     id: 19,
     name: "Allan Quatermain",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 0,
+      strength: 31,
+      speed: 6,
+      durability: 28,
+      power: 89,
+      combat: 4
     },
     biography: {
       "full-name": "",
@@ -4073,12 +4071,12 @@ const allData = [
     id: 190,
     name: "Crimson Dynamo",
     powerstats: {
-      intelligence: null,
+      intelligence: 13,
       strength: 65,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 97,
+      durability: 90,
+      power: 97,
+      combat: 24
     },
     biography: {
       "full-name": "Anton Vanko",
@@ -4151,12 +4149,12 @@ const allData = [
     id: 192,
     name: "Curse",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 99,
+      strength: 59,
+      speed: 85,
+      durability: 13,
+      power: 84,
+      combat: 88
     },
     biography: {
       "full-name": "Phillip Krahn",
@@ -4186,12 +4184,12 @@ const allData = [
     id: 193,
     name: "Cy-Gor",
     powerstats: {
-      intelligence: null,
+      intelligence: 22,
       strength: 96,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 63,
+      durability: 94,
+      power: 22,
+      combat: 95
     },
     biography: {
       "full-name": "",
@@ -4361,12 +4359,12 @@ const allData = [
     id: 197,
     name: "Cypher",
     powerstats: {
-      intelligence: null,
+      intelligence: 4,
       strength: 44,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 97,
+      durability: 30,
+      power: 44,
+      combat: 28
     },
     biography: {
       "full-name": "Douglas Aaron Ramsey",
@@ -4446,12 +4444,12 @@ const allData = [
     id: 199,
     name: "Danny Cooper",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 64,
+      strength: 76,
+      speed: 11,
+      durability: 2,
+      power: 84,
+      combat: 62
     },
     biography: {
       "full-name": "",
@@ -4782,12 +4780,12 @@ const allData = [
     id: 205,
     name: "Darkside",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 52,
+      strength: 16,
+      speed: 63,
+      durability: 56,
+      power: 27,
+      combat: 85
     },
     biography: {
       "full-name": "",
@@ -4980,12 +4978,12 @@ const allData = [
     id: 21,
     name: "Ammo",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 44,
+      strength: 76,
+      speed: 15,
+      durability: 45,
+      power: 47,
+      combat: 57
     },
     biography: {
       "full-name": "",
@@ -5435,12 +5433,12 @@ const allData = [
     id: 22,
     name: "Ando Masahashi",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 85,
+      strength: 80,
+      speed: 76,
+      durability: 37,
+      power: 41,
+      combat: 36
     },
     biography: {
       "full-name": "Ando Masahashi",
@@ -5595,12 +5593,12 @@ const allData = [
     id: 223,
     name: "Doctor Doom II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 89,
+      strength: 21,
+      speed: 7,
+      durability: 3,
+      power: 60,
+      combat: 36
     },
     biography: {
       "full-name": "Kristoff Vernard",
@@ -5861,12 +5859,12 @@ const allData = [
     id: 229,
     name: "Donna Troy",
     powerstats: {
-      intelligence: null,
+      intelligence: 61,
       strength: 89,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 22,
+      durability: 88,
+      power: 19,
+      combat: 26
     },
     biography: {
       "full-name": "Donna Hinckley Stacey Troy",
@@ -6520,12 +6518,12 @@ const allData = [
     id: 243,
     name: "Energy",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 55,
+      strength: 4,
+      speed: 71,
+      durability: 75,
+      power: 36,
+      combat: 92
     },
     biography: {
       "full-name": "",
@@ -6555,12 +6553,12 @@ const allData = [
     id: 244,
     name: "ERG-1",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 50,
+      strength: 44,
+      speed: 25,
+      durability: 57,
+      power: 30,
+      combat: 98
     },
     biography: {
       "full-name": "",
@@ -6819,12 +6817,12 @@ const allData = [
     id: 250,
     name: "Fabian Cortez",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 74,
+      strength: 81,
+      speed: 70,
+      durability: 92,
+      power: 90,
+      combat: 16
     },
     biography: {
       "full-name": "Fabian Cortez",
@@ -7029,12 +7027,12 @@ const allData = [
     id: 255,
     name: "Fighting Spirit",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 97,
+      strength: 86,
+      speed: 96,
+      durability: 41,
+      power: 25,
+      combat: 81
     },
     biography: {
       "full-name": "Carol Carter",
@@ -7363,12 +7361,12 @@ const allData = [
     id: 262,
     name: "Fixer",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 5,
+      strength: 26,
+      speed: 42,
+      durability: 20,
+      power: 16,
+      combat: 95
     },
     biography: {
       "full-name": "Paul Norbert Ebersol",
@@ -7445,12 +7443,12 @@ const allData = [
     id: 264,
     name: "Flash Gordon",
     powerstats: {
-      intelligence: null,
+      intelligence: 6,
       strength: 69,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 15,
+      durability: 5,
+      power: 82,
+      combat: 57
     },
     biography: {
       "full-name": "Steven Gordon",
@@ -7705,12 +7703,12 @@ const allData = [
     id: 27,
     name: "Angela",
     powerstats: {
-      intelligence: null,
+      intelligence: 4,
       strength: 97,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 33,
+      durability: 12,
+      power: 8,
+      combat: 0
     },
     biography: {
       "full-name": "",
@@ -7744,7 +7742,7 @@ const allData = [
       strength: 10,
       speed: 1,
       durability: 1,
-      power: 0,
+      power: 1,
       combat: 10
     },
     biography: {
@@ -7964,12 +7962,12 @@ const allData = [
     id: 276,
     name: "Garbage Man",
     powerstats: {
-      intelligence: null,
+      intelligence: 28,
       strength: 82,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 33,
+      durability: 40,
+      power: 8,
+      combat: 50
     },
     biography: {
       "full-name": "Richard Ethan Morse",
@@ -8077,12 +8075,12 @@ const allData = [
     id: 279,
     name: "Genesis",
     powerstats: {
-      intelligence: null,
+      intelligence: 42,
       strength: 68,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 8,
+      durability: 38,
+      power: 0,
+      combat: 92
     },
     biography: {
       "full-name": "Tyler Dayspring",
@@ -8205,12 +8203,12 @@ const allData = [
     id: 281,
     name: "Ghost Rider II",
     powerstats: {
-      intelligence: null,
+      intelligence: 95,
       strength: 70,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 62,
+      durability: 61,
+      power: 18,
+      combat: 92
     },
     biography: {
       "full-name": "Daniel Ketch",
@@ -8244,12 +8242,12 @@ const allData = [
     id: 282,
     name: "Giant-Man",
     powerstats: {
-      intelligence: null,
+      intelligence: 60,
       strength: 78,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 55,
+      durability: 95,
+      power: 71,
+      combat: 8
     },
     biography: {
       "full-name": "Hank Pym",
@@ -8279,12 +8277,12 @@ const allData = [
     id: 283,
     name: "Giant-Man II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 36,
+      strength: 52,
+      speed: 46,
+      durability: 22,
+      power: 13,
+      combat: 59
     },
     biography: {
       "full-name": "",
@@ -8607,12 +8605,12 @@ const allData = [
     id: 290,
     name: "Goliath",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 62,
+      strength: 46,
+      speed: 59,
+      durability: 90,
+      power: 47,
+      combat: 15
     },
     biography: {
       "full-name": "Erik Josten",
@@ -8642,12 +8640,12 @@ const allData = [
     id: 291,
     name: "Goliath",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 19,
+      strength: 11,
+      speed: 35,
+      durability: 71,
+      power: 1,
+      combat: 5
     },
     biography: {
       "full-name": "Clint Barton",
@@ -8677,12 +8675,12 @@ const allData = [
     id: 292,
     name: "Goliath",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 42,
+      strength: 3,
+      speed: 87,
+      durability: 2,
+      power: 19,
+      combat: 12
     },
     biography: {
       "full-name": "Hank Pym",
@@ -8712,12 +8710,12 @@ const allData = [
     id: 293,
     name: "Goliath IV",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 34,
+      strength: 18,
+      speed: 93,
+      durability: 55,
+      power: 86,
+      combat: 22
     },
     biography: {
       "full-name": "William Barrett Foster",
@@ -8795,12 +8793,12 @@ const allData = [
     id: 295,
     name: "Granny Goodness",
     powerstats: {
-      intelligence: null,
+      intelligence: 68,
       strength: 96,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 19,
+      durability: 80,
+      power: 22,
+      combat: 55
     },
     biography: {
       "full-name": "",
@@ -9136,12 +9134,12 @@ const allData = [
     id: 301,
     name: "Green Goblin III",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 63,
+      strength: 84,
+      speed: 20,
+      durability: 22,
+      power: 14,
+      combat: 38
     },
     biography: {
       "full-name": "Barton Hamilton",
@@ -9172,12 +9170,12 @@ const allData = [
     id: 302,
     name: "Green Goblin IV",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 43,
+      strength: 14,
+      speed: 54,
+      durability: 41,
+      power: 24,
+      combat: 36
     },
     biography: {
       "full-name": "Phillip Benjamin Urich",
@@ -9260,12 +9258,12 @@ const allData = [
     id: 304,
     name: "Guardian",
     powerstats: {
-      intelligence: null,
+      intelligence: 65,
       strength: 45,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 46,
+      durability: 83,
+      power: 51,
+      combat: 36
     },
     biography: {
       "full-name": "James Hudson",
@@ -9811,12 +9809,12 @@ const allData = [
     id: 316,
     name: "Hawkman",
     powerstats: {
-      intelligence: null,
+      intelligence: 7,
       strength: 66,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 94,
+      durability: 81,
+      power: 41,
+      combat: 24
     },
     biography: {
       "full-name": "Carter Hall",
@@ -9851,12 +9849,12 @@ const allData = [
     id: 317,
     name: "Hawkwoman",
     powerstats: {
-      intelligence: null,
+      intelligence: 20,
       strength: 96,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 18,
+      durability: 20,
+      power: 42,
+      combat: 21
     },
     biography: {
       "full-name": "Shayera Hol",
@@ -9892,12 +9890,12 @@ const allData = [
     id: 318,
     name: "Hawkwoman II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 34,
+      strength: 23,
+      speed: 85,
+      durability: 55,
+      power: 0,
+      combat: 47
     },
     biography: {
       "full-name": "Sharon Parker",
@@ -9927,12 +9925,12 @@ const allData = [
     id: 319,
     name: "Hawkwoman III",
     powerstats: {
-      intelligence: null,
+      intelligence: 10,
       strength: 92,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 14,
+      durability: 77,
+      power: 8,
+      combat: 22
     },
     biography: {
       "full-name": "Shayera Thal",
@@ -10165,12 +10163,12 @@ const allData = [
     id: 324,
     name: "Hellstorm",
     powerstats: {
-      intelligence: null,
+      intelligence: 20,
       strength: 56,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 86,
+      durability: 99,
+      power: 32,
+      combat: 52
     },
     biography: {
       "full-name": "Daimon Hellstrom",
@@ -10274,12 +10272,12 @@ const allData = [
     id: 326,
     name: "Hiro Nakamura",
     powerstats: {
-      intelligence: null,
+      intelligence: 67,
       strength: 15,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 48,
+      durability: 92,
+      power: 47,
+      combat: 25
     },
     biography: {
       "full-name": "Hiro Nakamura",
@@ -10348,12 +10346,12 @@ const allData = [
     id: 328,
     name: "Hobgoblin",
     powerstats: {
-      intelligence: null,
+      intelligence: 98,
       strength: 53,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 22,
+      durability: 23,
+      power: 70,
+      combat: 65
     },
     biography: {
       "full-name": "Roderick Kingsley",
@@ -10386,12 +10384,12 @@ const allData = [
     id: 329,
     name: "Hollow",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 18,
+      strength: 89,
+      speed: 43,
+      durability: 31,
+      power: 7,
+      combat: 93
     },
     biography: {
       "full-name": "Monet St. Croix",
@@ -10427,12 +10425,12 @@ const allData = [
     id: 33,
     name: "Anti-Spawn",
     powerstats: {
-      intelligence: null,
+      intelligence: 93,
       strength: 58,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 49,
+      durability: 47,
+      power: 0,
+      combat: 49
     },
     biography: {
       "full-name": "Jason Wynn",
@@ -10508,12 +10506,12 @@ const allData = [
     id: 331,
     name: "Howard the Duck",
     powerstats: {
-      intelligence: null,
+      intelligence: 26,
       strength: 44,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 27,
+      durability: 34,
+      power: 25,
+      combat: 38
     },
     biography: {
       "full-name": "Howard (Last name unrevealed)",
@@ -11349,12 +11347,12 @@ const allData = [
     id: 349,
     name: "Jack Bauer",
     powerstats: {
-      intelligence: null,
+      intelligence: 96,
       strength: 43,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 25,
+      durability: 26,
+      power: 18,
+      combat: 35
     },
     biography: {
       "full-name": "Kiefer Sutherland",
@@ -11783,12 +11781,12 @@ const allData = [
     id: 359,
     name: "Jesse Quick",
     powerstats: {
-      intelligence: null,
+      intelligence: 31,
       strength: 42,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 36,
+      durability: 23,
+      power: 75,
+      combat: 85
     },
     biography: {
       "full-name": "Jesse Chambers",
@@ -11936,12 +11934,12 @@ const allData = [
     id: 362,
     name: "Jessica Sanders",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 0,
+      strength: 56,
+      speed: 55,
+      durability: 94,
+      power: 31,
+      combat: 13
     },
     biography: {
       "full-name": "",
@@ -11971,12 +11969,12 @@ const allData = [
     id: 363,
     name: "Jigsaw",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 50,
+      strength: 25,
+      speed: 41,
+      durability: 59,
+      power: 99,
+      combat: 57
     },
     biography: {
       "full-name": "Billy Russo",
@@ -12087,12 +12085,12 @@ const allData = [
     id: 366,
     name: "Johann Krauss",
     powerstats: {
-      intelligence: null,
+      intelligence: 98,
       strength: 30,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 62,
+      durability: 52,
+      power: 48,
+      combat: 19
     },
     biography: {
       "full-name": "Johann Krauss",
@@ -12545,12 +12543,12 @@ const allData = [
     id: 377,
     name: "Jyn Erso",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 81,
+      strength: 56,
+      speed: 85,
+      durability: 52,
+      power: 90,
+      combat: 86
     },
     biography: {
       "full-name": "Jyn Erso",
@@ -12580,12 +12578,12 @@ const allData = [
     id: 378,
     name: "K-2SO",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 91,
+      strength: 39,
+      speed: 12,
+      durability: 45,
+      power: 61,
+      combat: 35
     },
     biography: {
       "full-name": "",
@@ -12914,12 +12912,12 @@ const allData = [
     id: 385,
     name: "Kid Flash II",
     powerstats: {
-      intelligence: null,
+      intelligence: 75,
       strength: 47,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 59,
+      durability: 73,
+      power: 41,
+      combat: 69
     },
     biography: {
       "full-name": "Bartholomew Allen II",
@@ -13507,12 +13505,12 @@ const allData = [
     id: 399,
     name: "Lady Bullseye",
     powerstats: {
-      intelligence: null,
+      intelligence: 78,
       strength: 63,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 92,
+      durability: 80,
+      power: 42,
+      combat: 81
     },
     biography: {
       "full-name": "",
@@ -14109,12 +14107,12 @@ const allData = [
     id: 411,
     name: "Liz Sherman",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 95,
+      strength: 53,
+      speed: 90,
+      durability: 55,
+      power: 68,
+      combat: 60
     },
     biography: {
       "full-name": "Elizabeth Anne Sherman",
@@ -14377,12 +14375,12 @@ const allData = [
     id: 417,
     name: "Luke Campbell",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 70,
+      strength: 30,
+      speed: 43,
+      durability: 82,
+      power: 48,
+      combat: 44
     },
     biography: {
       "full-name": "Luke Campbell",
@@ -14532,12 +14530,12 @@ const allData = [
     id: 420,
     name: "Lyja",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 76,
+      strength: 65,
+      speed: 11,
+      durability: 12,
+      power: 44,
+      combat: 92
     },
     biography: {
       "full-name": "Lyja",
@@ -15179,12 +15177,12 @@ const allData = [
     id: 434,
     name: "Master Brood",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 68,
+      strength: 55,
+      speed: 90,
+      durability: 60,
+      power: 78,
+      combat: 33
     },
     biography: {
       "full-name": "Currently Colin Wood",
@@ -15718,12 +15716,12 @@ const allData = [
     id: 446,
     name: "Metamorpho",
     powerstats: {
-      intelligence: null,
+      intelligence: 8,
       strength: 82,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 89,
+      durability: 42,
+      power: 28,
+      combat: 67
     },
     biography: {
       "full-name": "Rex Mason",
@@ -15758,12 +15756,12 @@ const allData = [
     id: 447,
     name: "Meteorite",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 71,
+      strength: 98,
+      speed: 97,
+      durability: 50,
+      power: 72,
+      combat: 49
     },
     biography: {
       "full-name": "",
@@ -16027,12 +16025,12 @@ const allData = [
     id: 453,
     name: "Minna Murray",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 61,
+      strength: 89,
+      speed: 59,
+      durability: 17,
+      power: 55,
+      combat: 21
     },
     biography: {
       "full-name": "Wilhelmina Harker",
@@ -16295,12 +16293,12 @@ const allData = [
     id: 46,
     name: "Arsenal",
     powerstats: {
-      intelligence: null,
+      intelligence: 48,
       strength: 54,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 93,
+      durability: 30,
+      power: 71,
+      combat: 83
     },
     biography: {
       "full-name": "Roy William Harper, Jr.",
@@ -16515,12 +16513,12 @@ const allData = [
     id: 465,
     name: "Mohinder Suresh",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 52,
+      strength: 36,
+      speed: 59,
+      durability: 29,
+      power: 9,
+      combat: 23
     },
     biography: {
       "full-name": "Mohinder Suresh",
@@ -16558,12 +16556,12 @@ const allData = [
     id: 466,
     name: "Moloch",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 26,
+      strength: 48,
+      speed: 75,
+      durability: 58,
+      power: 62,
+      combat: 31
     },
     biography: {
       "full-name": "Edgar William Jacobi",
@@ -16636,12 +16634,12 @@ const allData = [
     id: 468,
     name: "Monarch",
     powerstats: {
-      intelligence: null,
+      intelligence: 39,
       strength: 100,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 59,
+      durability: 85,
+      power: 62,
+      combat: 81
     },
     biography: {
       "full-name": "Nathaniel Christopher Adam",
@@ -16719,12 +16717,12 @@ const allData = [
     id: 47,
     name: "Astro Boy",
     powerstats: {
-      intelligence: null,
+      intelligence: 61,
       strength: 90,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 23,
+      durability: 1,
+      power: 21,
+      combat: 76
     },
     biography: {
       "full-name": "Atom",
@@ -16884,12 +16882,12 @@ const allData = [
     id: 473,
     name: "Morph",
     powerstats: {
-      intelligence: null,
+      intelligence: 56,
       strength: 40,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 27,
+      durability: 67,
+      power: 80,
+      combat: 32
     },
     biography: {
       "full-name": "Kevin Sydney",
@@ -17328,12 +17326,12 @@ const allData = [
     id: 482,
     name: "Namor",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 86,
+      strength: 78,
+      speed: 88,
+      durability: 5,
+      power: 68,
+      combat: 80
     },
     biography: {
       "full-name": "",
@@ -17446,12 +17444,12 @@ const allData = [
     id: 486,
     name: "Nathan Petrelli",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 14,
+      strength: 46,
+      speed: 31,
+      durability: 52,
+      power: 81,
+      combat: 80
     },
     biography: {
       "full-name": "Nathan Petrelli",
@@ -17776,12 +17774,12 @@ const allData = [
     id: 494,
     name: "Nite Owl II",
     powerstats: {
-      intelligence: null,
+      intelligence: 79,
       strength: 45,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 19,
+      durability: 73,
+      power: 65,
+      combat: 7
     },
     biography: {
       "full-name": "Daniel Dreiberg",
@@ -18071,12 +18069,12 @@ const allData = [
     id: 50,
     name: "Atom",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 69,
+      strength: 38,
+      speed: 26,
+      durability: 35,
+      power: 25,
+      combat: 83
     },
     biography: {
       "full-name": "Albert Pratt",
@@ -18114,12 +18112,12 @@ const allData = [
     id: 500,
     name: "Omega Red",
     powerstats: {
-      intelligence: null,
+      intelligence: 25,
       strength: 61,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 28,
+      durability: 77,
+      power: 25,
+      combat: 10
     },
     biography: {
       "full-name": "Arkady Gregorivich",
@@ -18153,12 +18151,12 @@ const allData = [
     id: 501,
     name: "Omniscient",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 61,
+      strength: 12,
+      speed: 89,
+      durability: 99,
+      power: 54,
+      combat: 86
     },
     biography: {
       "full-name":
@@ -18425,12 +18423,12 @@ const allData = [
     id: 51,
     name: "Atom",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 96,
+      strength: 46,
+      speed: 60,
+      durability: 59,
+      power: 7,
+      combat: 10
     },
     biography: {
       "full-name": "",
@@ -18495,12 +18493,12 @@ const allData = [
     id: 511,
     name: "Penance",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 57,
+      strength: 18,
+      speed: 87,
+      durability: 17,
+      power: 98,
+      combat: 2
     },
     biography: {
       "full-name": "",
@@ -18530,12 +18528,12 @@ const allData = [
     id: 512,
     name: "Penance I",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 62,
+      strength: 76,
+      speed: 96,
+      durability: 81,
+      power: 91,
+      combat: 27
     },
     biography: {
       "full-name": "",
@@ -18565,12 +18563,12 @@ const allData = [
     id: 513,
     name: "Penance II",
     powerstats: {
-      intelligence: null,
+      intelligence: 23,
       strength: 20,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 51,
+      durability: 35,
+      power: 75,
+      combat: 13
     },
     biography: {
       "full-name": "Robert Baldwin",
@@ -18647,12 +18645,12 @@ const allData = [
     id: 515,
     name: "Phantom",
     powerstats: {
-      intelligence: null,
+      intelligence: 89,
       strength: 48,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 84,
+      durability: 64,
+      power: 57,
+      combat: 58
     },
     biography: {
       "full-name": "Christopher Walker",
@@ -18768,12 +18766,12 @@ const allData = [
     id: 519,
     name: "Plastic Lad",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 61,
+      strength: 86,
+      speed: 80,
+      durability: 5,
+      power: 63,
+      combat: 6
     },
     biography: {
       "full-name": "Luke O'Brian",
@@ -19054,12 +19052,12 @@ const allData = [
     id: 525,
     name: "Power Man",
     powerstats: {
-      intelligence: null,
+      intelligence: 28,
       strength: 82,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 69,
+      durability: 79,
+      power: 18,
+      combat: 5
     },
     biography: {
       "full-name": "Luke Cage",
@@ -19484,12 +19482,12 @@ const allData = [
     id: 534,
     name: "Quantum",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 79,
+      strength: 65,
+      speed: 32,
+      durability: 69,
+      power: 97,
+      combat: 21
     },
     biography: {
       "full-name": "",
@@ -19717,12 +19715,12 @@ const allData = [
     id: 54,
     name: "Atom III",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 35,
+      strength: 64,
+      speed: 9,
+      durability: 68,
+      power: 30,
+      combat: 37
     },
     biography: {
       "full-name": "Adam Cray",
@@ -19915,12 +19913,12 @@ const allData = [
     id: 544,
     name: "Razor-Fist II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 55,
+      strength: 23,
+      speed: 3,
+      durability: 91,
+      power: 16,
+      combat: 10
     },
     biography: {
       "full-name": "Douglas Scott",
@@ -20162,12 +20160,12 @@ const allData = [
     id: 55,
     name: "Atom IV",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 1,
+      strength: 65,
+      speed: 4,
+      durability: 43,
+      power: 57,
+      combat: 92
     },
     biography: {
       "full-name": "Ryan Choi",
@@ -20302,12 +20300,12 @@ const allData = [
     id: 552,
     name: "Redeemer II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 46,
+      strength: 98,
+      speed: 77,
+      durability: 22,
+      power: 62,
+      combat: 55
     },
     biography: {
       "full-name": "Phil Timper",
@@ -20337,12 +20335,12 @@ const allData = [
     id: 553,
     name: "Redeemer III",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 25,
+      strength: 35,
+      speed: 51,
+      durability: 94,
+      power: 48,
+      combat: 41
     },
     biography: {
       "full-name": "Eddie Frank",
@@ -20372,12 +20370,12 @@ const allData = [
     id: 554,
     name: "Renata Soliz",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 24,
+      strength: 88,
+      speed: 30,
+      durability: 31,
+      power: 75,
+      combat: 25
     },
     biography: {
       "full-name": "",
@@ -21917,12 +21915,12 @@ const allData = [
     id: 59,
     name: "Aztar",
     powerstats: {
-      intelligence: null,
+      intelligence: 95,
       strength: 98,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 16,
+      durability: 73,
+      power: 73,
+      combat: 92
     },
     biography: {
       "full-name": "Aztar",
@@ -22081,12 +22079,12 @@ const allData = [
     id: 593,
     name: "Shrinking Violet",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 88,
+      strength: 8,
+      speed: 52,
+      durability: 32,
+      power: 98,
+      combat: 81
     },
     biography: {
       "full-name": "",
@@ -22199,12 +22197,12 @@ const allData = [
     id: 596,
     name: "Silk Spectre",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 52,
+      strength: 32,
+      speed: 2,
+      durability: 90,
+      power: 11,
+      combat: 10
     },
     biography: {
       "full-name": "Sally Juspeczyk",
@@ -22237,12 +22235,12 @@ const allData = [
     id: 597,
     name: "Silk Spectre II",
     powerstats: {
-      intelligence: null,
+      intelligence: 99,
       strength: 51,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 26,
+      durability: 55,
+      power: 55,
+      combat: 45
     },
     biography: {
       "full-name": "Laurie Juspeczyk",
@@ -22576,12 +22574,12 @@ const allData = [
     id: 603,
     name: "Siren II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 38,
+      strength: 32,
+      speed: 61,
+      durability: 88,
+      power: 72,
+      combat: 18
     },
     biography: {
       "full-name": "La Sirene la Bailene",
@@ -22700,12 +22698,12 @@ const allData = [
     id: 606,
     name: "Snake-Eyes",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 84,
+      strength: 54,
+      speed: 99,
+      durability: 72,
+      power: 28,
+      combat: 96
     },
     biography: {
       "full-name": "",
@@ -23059,12 +23057,12 @@ const allData = [
     id: 614,
     name: "Speedball",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 0,
+      strength: 40,
+      speed: 97,
+      durability: 27,
+      power: 71,
+      combat: 31
     },
     biography: {
       "full-name": "Robert Baldwin",
@@ -23140,12 +23138,12 @@ const allData = [
     id: 616,
     name: "Speedy",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 65,
+      strength: 2,
+      speed: 73,
+      durability: 89,
+      power: 59,
+      combat: 18
     },
     biography: {
       "full-name": "Roy William Harper, Jr.",
@@ -23175,12 +23173,12 @@ const allData = [
     id: 617,
     name: "Spider-Carnage",
     powerstats: {
-      intelligence: null,
+      intelligence: 72,
       strength: 69,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 71,
+      durability: 54,
+      power: 24,
+      combat: 92
     },
     biography: {
       "full-name": "Benjamin Reilly",
@@ -23381,12 +23379,12 @@ const allData = [
     id: 621,
     name: "Spider-Man",
     powerstats: {
-      intelligence: null,
+      intelligence: 49,
       strength: 57,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 69,
+      durability: 61,
+      power: 56,
+      combat: 17
     },
     biography: {
       "full-name": "Miguel O'Hara",
@@ -23419,12 +23417,12 @@ const allData = [
     id: 622,
     name: "Spider-Man",
     powerstats: {
-      intelligence: null,
+      intelligence: 57,
       strength: 58,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 51,
+      durability: 72,
+      power: 28,
+      combat: 23
     },
     biography: {
       "full-name": "Miles Morales",
@@ -23501,12 +23499,12 @@ const allData = [
     id: 624,
     name: "Spider-Woman II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 26,
+      strength: 49,
+      speed: 15,
+      durability: 91,
+      power: 61,
+      combat: 48
     },
     biography: {
       "full-name": "",
@@ -23576,12 +23574,12 @@ const allData = [
     id: 626,
     name: "Spider-Woman IV",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 63,
+      strength: 55,
+      speed: 13,
+      durability: 39,
+      power: 35,
+      combat: 12
     },
     biography: {
       "full-name": "Charlotte Witter",
@@ -23691,12 +23689,12 @@ const allData = [
     id: 629,
     name: "Stacy X",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 26,
+      strength: 98,
+      speed: 59,
+      durability: 32,
+      power: 95,
+      combat: 27
     },
     biography: {
       "full-name": "",
@@ -24146,12 +24144,12 @@ const allData = [
     id: 64,
     name: "Batgirl",
     powerstats: {
-      intelligence: null,
+      intelligence: 91,
       strength: 27,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 82,
+      durability: 41,
+      power: 79,
+      combat: 57
     },
     biography: {
       "full-name": "Mary Elizabeth Kane",
@@ -24638,12 +24636,12 @@ const allData = [
     id: 65,
     name: "Batgirl III",
     powerstats: {
-      intelligence: null,
+      intelligence: 45,
       strength: 43,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 50,
+      durability: 23,
+      power: 99,
+      combat: 32
     },
     biography: {
       "full-name": "Helena Rosa Bertinelli",
@@ -25213,12 +25211,12 @@ const allData = [
     id: 662,
     name: "Thunderbird II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 14,
+      strength: 1,
+      speed: 19,
+      durability: 13,
+      power: 60,
+      combat: 72
     },
     biography: {
       "full-name": "James Proudstar",
@@ -25248,12 +25246,12 @@ const allData = [
     id: 663,
     name: "Thunderbird III",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 26,
+      strength: 91,
+      speed: 15,
+      durability: 30,
+      power: 62,
+      combat: 69
     },
     biography: {
       "full-name": "Neal Shaara",
@@ -25498,12 +25496,12 @@ const allData = [
     id: 669,
     name: "Titan",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 60,
+      strength: 90,
+      speed: 94,
+      durability: 42,
+      power: 70,
+      combat: 19
     },
     biography: {
       "full-name": "",
@@ -25533,12 +25531,12 @@ const allData = [
     id: 67,
     name: "Batgirl V",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 9,
+      strength: 79,
+      speed: 80,
+      durability: 76,
+      power: 36,
+      combat: 79
     },
     biography: {
       "full-name": "Charlotte Gage-Radcliffe",
@@ -25700,12 +25698,12 @@ const allData = [
     id: 673,
     name: "Tracy Strauss",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 27,
+      strength: 17,
+      speed: 48,
+      durability: 87,
+      power: 73,
+      combat: 4
     },
     biography: {
       "full-name": "Tracy Strauss",
@@ -25743,12 +25741,12 @@ const allData = [
     id: 674,
     name: "Trickster",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 62,
+      strength: 68,
+      speed: 91,
+      durability: 32,
+      power: 78,
+      combat: 22
     },
     biography: {
       "full-name": "Giovanni Giuseppe",
@@ -25781,12 +25779,12 @@ const allData = [
     id: 675,
     name: "Trigon",
     powerstats: {
-      intelligence: null,
+      intelligence: 63,
       strength: 99,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 80,
+      durability: 83,
+      power: 66,
+      combat: 85
     },
     biography: {
       "full-name": "",
@@ -26119,12 +26117,12 @@ const allData = [
     id: 682,
     name: "Vagabond",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 76,
+      strength: 0,
+      speed: 49,
+      durability: 82,
+      power: 21,
+      combat: 9
     },
     biography: {
       "full-name": "Priscilla Lyons",
@@ -26158,12 +26156,12 @@ const allData = [
     id: 683,
     name: "Valerie Hart",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 59,
+      strength: 79,
+      speed: 94,
+      durability: 31,
+      power: 88,
+      combat: 0
     },
     biography: {
       "full-name": "",
@@ -26193,12 +26191,12 @@ const allData = [
     id: 684,
     name: "Valkyrie",
     powerstats: {
-      intelligence: null,
+      intelligence: 3,
       strength: 94,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 94,
+      durability: 64,
+      power: 24,
+      combat: 3
     },
     biography: {
       "full-name": "Brunnhilde (also spelled Brunnhilda)",
@@ -26536,12 +26534,12 @@ const allData = [
     id: 691,
     name: "Vertigo II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 65,
+      strength: 92,
+      speed: 12,
+      durability: 73,
+      power: 76,
+      combat: 41
     },
     biography: {
       "full-name": "-",
@@ -26657,12 +26655,12 @@ const allData = [
     id: 694,
     name: "Vindicator",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 59,
+      strength: 87,
+      speed: 64,
+      durability: 20,
+      power: 78,
+      combat: 47
     },
     biography: {
       "full-name": "Dr. James McDonald Hudson",
@@ -26692,12 +26690,12 @@ const allData = [
     id: 695,
     name: "Violator",
     powerstats: {
-      intelligence: null,
+      intelligence: 28,
       strength: 53,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 46,
+      durability: 47,
+      power: 41,
+      combat: 30
     },
     biography: {
       "full-name": "",
@@ -26814,12 +26812,12 @@ const allData = [
     id: 698,
     name: "Vision II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 81,
+      strength: 23,
+      speed: 92,
+      durability: 10,
+      power: 7,
+      combat: 11
     },
     biography: {
       "full-name": "Vision",
@@ -26973,12 +26971,12 @@ const allData = [
     id: 700,
     name: "Vulcan",
     powerstats: {
-      intelligence: null,
+      intelligence: 23,
       strength: 56,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 98,
+      durability: 52,
+      power: 46,
+      combat: 72
     },
     biography: {
       "full-name": "Gabriel Summers",
@@ -27136,12 +27134,12 @@ const allData = [
     id: 704,
     name: "Warbird",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 2,
+      strength: 12,
+      speed: 3,
+      durability: 12,
+      power: 45,
+      combat: 50
     },
     biography: {
       "full-name": "Carol Danvers",
@@ -27424,12 +27422,12 @@ const allData = [
     id: 710,
     name: "Weapon XI",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 30,
+      strength: 98,
+      speed: 82,
+      durability: 84,
+      power: 76,
+      combat: 33
     },
     biography: {
       "full-name": "Weapon XI",
@@ -27494,12 +27492,12 @@ const allData = [
     id: 712,
     name: "White Queen",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 37,
+      strength: 31,
+      speed: 91,
+      durability: 16,
+      power: 69,
+      combat: 91
     },
     biography: {
       "full-name": "Emma Grace Frost",
@@ -27622,12 +27620,12 @@ const allData = [
     id: 715,
     name: "Wiz Kid",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 63,
+      strength: 18,
+      speed: 65,
+      durability: 20,
+      power: 22,
+      combat: 79
     },
     biography: {
       "full-name": "Takashi Matsuya",
@@ -27942,12 +27940,12 @@ const allData = [
     id: 721,
     name: "Wondra",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 43,
+      strength: 38,
+      speed: 35,
+      durability: 30,
+      power: 62,
+      combat: 55
     },
     biography: {
       "full-name": "",
@@ -28114,12 +28112,12 @@ const allData = [
     id: 725,
     name: "Yellow Claw",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 61,
+      strength: 42,
+      speed: 34,
+      durability: 86,
+      power: 83,
+      combat: 63
     },
     biography: {
       "full-name": "",
@@ -28436,12 +28434,12 @@ const allData = [
     id: 74,
     name: "Beak",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 54,
+      strength: 88,
+      speed: 83,
+      durability: 63,
+      power: 2,
+      combat: 28
     },
     biography: {
       "full-name": "Barnell Bohusk",
@@ -28580,12 +28578,12 @@ const allData = [
     id: 77,
     name: "Beetle",
     powerstats: {
-      intelligence: null,
+      intelligence: 34,
       strength: 54,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 55,
+      durability: 29,
+      power: 51,
+      combat: 97
     },
     biography: {
       "full-name": "",
@@ -28937,12 +28935,12 @@ const allData = [
     id: 85,
     name: "Billy Kincaid",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 84,
+      strength: 70,
+      speed: 18,
+      durability: 57,
+      power: 94,
+      combat: 54
     },
     biography: {
       "full-name": "Billy Kincaid",
@@ -28972,12 +28970,12 @@ const allData = [
     id: 86,
     name: "Binary",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 44,
+      strength: 58,
+      speed: 62,
+      durability: 35,
+      power: 41,
+      combat: 85
     },
     biography: {
       "full-name": "Carol Danvers",
@@ -29089,12 +29087,12 @@ const allData = [
     id: 89,
     name: "Bird-Man",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 91,
+      strength: 6,
+      speed: 81,
+      durability: 52,
+      power: 79,
+      combat: 28
     },
     biography: {
       "full-name": "Henry Hawk",
@@ -29124,12 +29122,12 @@ const allData = [
     id: 732,
     name: "Agent 13",
     powerstats: {
-      intelligence: null,
+      intelligence: 25,
       strength: 46,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 28,
+      durability: 56,
+      power: 62,
+      combat: 90
     },
     biography: {
       "full-name": "Sharon Carter",
@@ -29166,12 +29164,12 @@ const allData = [
     id: 90,
     name: "Bird-Man II",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 90,
+      strength: 11,
+      speed: 63,
+      durability: 71,
+      power: 99,
+      combat: 22
     },
     biography: {
       "full-name": "Achille DiBacco",
@@ -29201,12 +29199,12 @@ const allData = [
     id: 91,
     name: "Birdman",
     powerstats: {
-      intelligence: null,
+      intelligence: 84,
       strength: 35,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      speed: 64,
+      durability: 81,
+      power: 51,
+      combat: 36
     },
     biography: {
       "full-name": "Ray Randal",
@@ -29331,12 +29329,12 @@ const allData = [
     id: 94,
     name: "Black Abbott",
     powerstats: {
-      intelligence: null,
-      strength: null,
-      speed: null,
-      durability: null,
-      power: null,
-      combat: null
+      intelligence: 18,
+      strength: 0,
+      speed: 7,
+      durability: 89,
+      power: 2,
+      combat: 56
     },
     biography: {
       "full-name": "",
@@ -29577,4 +29575,5 @@ const allData = [
     }
   }
 ];
+
 exports.allData = allData;
