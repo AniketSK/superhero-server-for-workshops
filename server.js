@@ -16,7 +16,7 @@ http://${hostname}:${port}/all
 http://${hostname}:${port}/all?max=10
 
 3. To get a hero by their id:
-http://${hostname}:${port}/<your access token>/1`;
+http://${hostname}:${port}//1`;
 
 
 //Create HTTP server and listen on port 3000 for requests
@@ -38,8 +38,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/") {
     res.end(useageInfo);
   } else {
-    handleSuperheroApi(req.url).then(responseContent =>
-      res.end(JSON.stringify(stripUnusedFields(responseContent)))
+      res.end(JSON.stringify(stripUnusedFields(handleSuperheroApi(req.url)))
     );
   }
 });

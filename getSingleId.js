@@ -1,40 +1,22 @@
-const http = require("http");
+const allData = require("./single_data_file").allData;
+const urlLib = require("url");
+
 /**
- * Response for when a request has to be forwarded to the suberheroapi.com and that response should be passed back
- * to the caller.
- * This is achived by:
- * 1. Preparing a Promise that represents the external call.
- * 2. Waiting until the promise completes.
- * 3. Then returning that data.
+ * Handling a request for a single hero from the list
  */
-handleSuperheroApi = async url => {
-  const options = {
-    host: "superheroapi.com",
-    path: url.replace("/api", "/api.php"),
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json"
+handleSuperheroApi = url => {
+    console.log(`Url is ${url}`)
+    let id = getId(url)
+    console.log(`Id is ${id}`)
+    return allData.find(i => i.id == id);
+}
+
+getId = (url) => {
+    let query = urlLib.parse(url, true);
+    let splitPaths = query.pathname.split('/')
+    if (splitPaths.length == 3 && splitPaths[1] == 'api' && Number.isInteger(Number(splitPaths[2]))) {
+        return Number(splitPaths[2])
     }
-  };
-  const externalCallPromise = new Promise((resolve, reject) =>
-    http.get(options, res => {
-      let rawData = "";
-      res.on("data", chunk => {
-        rawData += chunk;
-      });
-      res.on("end", () => {
-        try {
-          const parsedData = JSON.parse(rawData);
-          resolve(parsedData);
-        } catch (e) {
-          console.error(e.message);
-          reject(e);
-        }
-      });
-    })
-  );
-  const reply = await externalCallPromise;
-  return reply;
-};
+}
 
 exports.handleSuperheroApi = handleSuperheroApi;
