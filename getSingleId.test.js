@@ -1,10 +1,6 @@
 const handleSuperheroApi = require("./getSingleId").handleSuperheroApi;
 const missingIdError = require("./errors").missingIdError;
 
-/**
- * Testing with promises
- * https://jestjs.io/docs/en/asynchronous#promises
- */
 test("returns a single hero object for a valid api request", () => {
   const url = "http://127.0.0.1/api/12";
   expect(handleSuperheroApi(url)).toEqual(validExpectedData);
