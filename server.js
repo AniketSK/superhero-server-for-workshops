@@ -16,7 +16,7 @@ http://${hostname}:${port}/all
 http://${hostname}:${port}/all?max=10
 
 3. To get a hero by their id:
-http://${hostname}:${port}//1`;
+http://${hostname}:${port}/1`;
 
 
 //Create HTTP server and listen on port 3000 for requests
