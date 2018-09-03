@@ -6,8 +6,8 @@
  */
 const stripUnusedFields = hero => {
     // All the fields mentioned here are just the ones to keep.
-    const { id, name, image, powerstats } = hero;
-    return { id, name, image, powerstats };
+    const { id, name, image, powerstats, error } = hero;
+    return { id, name, image, powerstats, error };
   };
 
 exports.stripUnusedFields = stripUnusedFields

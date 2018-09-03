@@ -1,5 +1,4 @@
 const missingIdError = {
-  response: "error",
   error: "id not present in database"
 };
 
