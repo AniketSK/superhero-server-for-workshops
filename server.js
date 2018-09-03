@@ -1,6 +1,6 @@
-const handleReqAll = require('./localrequests').handleReqAll;
-const handleSuperheroApi = require('./getSingleId').handleSuperheroApi;
-const stripUnusedFields = require('./apishape').stripUnusedFields
+const handleReqAll = require("./localrequests").handleReqAll;
+const handleSuperheroApi = require("./getSingleId").handleSuperheroApi;
+const stripUnusedFields = require("./apishape").stripUnusedFields;
 //Load HTTP module
 const http = require("http");
 const hostname = "127.0.0.1";
@@ -16,8 +16,9 @@ http://${hostname}:${port}/all
 http://${hostname}:${port}/all?max=10
 
 3. To get a hero by their id:
-http://${hostname}:${port}/1`;
+http://${hostname}:${port}/1
 
+`;
 
 //Create HTTP server and listen on port 3000 for requests
 const server = http.createServer((req, res) => {
@@ -28,7 +29,10 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "application/json");
   // Cross Origin Resource Sharing headers
   res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
 
   if (req.url.startsWith("/all")) {
     responseContent = handleReqAll(req.url);
@@ -38,8 +42,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/") {
     res.end(useageInfo);
   } else {
-      res.end(JSON.stringify(stripUnusedFields(handleSuperheroApi(req.url)))
-    );
+    res.end(JSON.stringify(stripUnusedFields(handleSuperheroApi(req.url))));
   }
 });
 
@@ -47,4 +50,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(useageInfo);
 });
-
