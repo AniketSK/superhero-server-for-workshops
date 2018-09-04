@@ -287,7 +287,7 @@ const allData = [
       relatives: "-"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1106.jpg"
+      url: "https://image.ibb.co/k2pqze/blackmamba.jpg"
     }
   },
   {
@@ -1235,7 +1235,7 @@ const allData = [
       relatives: "-"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1116.jpg"
+      url: "https://image.ibb.co/kAbecz/bombqueen.png"
     }
   },
   {
@@ -3054,7 +3054,7 @@ const allData = [
       relatives: "-"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/926.jpg"
+      url: "https://image.ibb.co/cFwWPe/cheetahiii.jpg"
     }
   },
   {
@@ -6075,7 +6075,7 @@ const allData = [
         "Winston Frost (father), Hazel Frost (mother), Christian Frost (brother) Adrienne Frost (sister, deceased,) Cordelia Frost (sister)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/325.jpg"
+      url: "https://image.ibb.co/ev9OZe/whitequeen.jpg"
     }
   },
   {
@@ -6629,7 +6629,7 @@ const allData = [
       relatives: "Bruce Carter (father)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1167.jpg"
+      url: "https://image.ibb.co/nb1yLK/fightingspirit.jpg"
     }
   },
   {
@@ -7382,7 +7382,7 @@ const allData = [
       relatives: "-"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1108.jpg"
+      url: "https://image.ibb.co/fS7AHz/frenzy.png"
     }
   },
   {
@@ -10644,7 +10644,7 @@ const allData = [
       relatives: "Amon Tomaz (brother, deceased), Black Adam (husband)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1164.jpg"
+      url: "https://image.ibb.co/kNwXfK/isis.jpg"
     }
   },
   {
@@ -11078,7 +11078,7 @@ const allData = [
         "Andrew Jackson Kale (brother, deceased), Joshua Kale (grandfather, deceased), Naomi Kale (aunt), Johnny Blaze ( Ghost Rider ), Barbara and Daniel Ketch (cousins); Illyana Kale, Noble and pastor Kale, Magdalena (ancestors)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1321.jpg"
+      url: "https://image.ibb.co/dy9FHz/jenniferkale.jpg"
     }
   },
   {
@@ -11098,7 +11098,7 @@ const allData = [
       "alter-egos": "Liberty Belle II",
       aliases: ["-"],
       "place-of-birth": "-",
-      "first-appearance": "-",
+      "first-appearance": "Justice Society of America (vol. 2) #1 (August 1992)",
       publisher: "Liberty Belle II",
       alignment: "good"
     },
@@ -11113,7 +11113,7 @@ const allData = [
     work: { occupation: "-", base: "-" },
     connections: { "group-affiliation": "-", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/10544.jpg"
+      url: "https://image.ibb.co/io2NfK/jessequick.png"
     }
   },
   {
@@ -11231,7 +11231,7 @@ const allData = [
         "unnamed mother (deceased); Dave Cambell (father, deceased); Phillip Cambell (brother, deceased); unnamed adoptive mother; unnamed adoptive father; unnamed adoptive sister; Jenny (adoptive aunt); Luke Cage (husband); Danielle Cage (daughter);"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/10403.jpg"
+      url: "https://image.ibb.co/fp4Vje/jessicajones.jpg"
     }
   },
   {
@@ -14363,7 +14363,7 @@ const allData = [
         "Scott Summers (Cyclops, alternate timeline father, deceased in own time), Jean Grey-Summers (Phoenix, alternate timeline mother, deceased in own time), Alex Summers (Havok, alternate timeline uncle), Franklin Richards (alternate future husband), Jonathan Reed Richards (Hyperstorm, alternate future son), David Richards (alternate future son)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/94.jpg"
+      url: "https://image.ibb.co/dbsxxz/marvelgirl.jpg"
     }
   },
   {
@@ -14861,7 +14861,7 @@ const allData = [
         "Aquaman (husband); Aquababy (son, deceased); A.J. (son); Siren (Hila, twin sister)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1388.jpg"
+      url: "https://image.ibb.co/c9ybqK/mera.jpg"
     }
   },
   {
@@ -15319,7 +15319,7 @@ const allData = [
     },
     connections: { "group-affiliation": "Teen Titans", relatives: "-" },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1394.jpg"
+      url: "https://image.ibb.co/nuA9cz/missmartian.png"
     }
   },
   {
@@ -15582,7 +15582,7 @@ const allData = [
         "Susan Morse (mother); Ben Morse (brother); Hawkeye (Clint Barton) (ex-husband)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/1328.jpg"
+      url: "https://image.ibb.co/c1hpcz/mockingbird2.jpg"
     }
   },
   {
@@ -17862,7 +17862,7 @@ const allData = [
       relatives: "-"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/757.jpg"
+      url: "https://image.ibb.co/fQANVK/poisonivy.jpg"
     }
   },
   {
@@ -17954,7 +17954,7 @@ const allData = [
         "Zor-L (father, deceased), Allura (mother, deceased), Jor-L (uncle, deceased), Lora (aunt, deceased), Kal-L (Earth-Two Superman, cousin and adopted father, deceased), Earth-Two Lois Lane (adopted mother, deceased), Equinox (son, deceased), Kara Zor-El (alternate universe version)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/758.jpg"
+      url: "https://image.ibb.co/cOtecz/powergirl.jpg"
     }
   },
   {
@@ -27782,7 +27782,7 @@ const allData = [
       relatives: "Walter Hardy (father, deceased), Lydia Hardy (mother)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/32.jpg"
+      url: "https://image.ibb.co/et0fze/blackcat.jpg"
     }
   }
 ];
