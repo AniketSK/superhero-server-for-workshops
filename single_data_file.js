@@ -16346,7 +16346,7 @@ const allData = [
         "Rogue (unofficial foster daughter), Ralph Brickman (husband), Gloria Brickman (daughter), Graydon Creed (son, deceased)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/817.jpg"
+      url: "https://image.ibb.co/e9LCFK/mystique.jpg"
     }
   },
   {
@@ -16486,7 +16486,7 @@ const allData = [
         "Namora (mother); Talan (father, deceased); Namor, Byrrah, Dara, Arkus (first cousins once removed); Fen (great-aunt, deceased); Thakorr (great-grandfather, deceased); Korra (great-grandmother, presumed deceased); large extended family; Betty Prentiss (legal guardian, deceased)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/106.jpg"
+      url: "https://image.ibb.co/km9Zee/namorita.jpg"
     }
   },
   {
@@ -22402,7 +22402,7 @@ const allData = [
         "King Myand'r (father), Queen Luand'r (mother), Queen Komand'r (sister, Blackfire), Ryand'r (brother), Prince Karras (husband, deceased), Ph'yzzon (husband, deceased)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/786.jpg"
+      url: "https://image.ibb.co/kLfd4e/starfire.jpg"
     }
   },
   {
@@ -23929,7 +23929,7 @@ const allData = [
         "Mr. Grant (father), Mrs. Grant (mother, deceased), William Nelson (husband, deceased)"
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/42.jpg"
+      url: "https://image.ibb.co/icBPUe/tigra2.jpg"
     }
   },
   {
@@ -27367,7 +27367,7 @@ const allData = [
         'Harrison Carter (father), Amanda Carter (mother), Margaret "Peggy" Carter (sister)'
     },
     image: {
-      url: "https://www.superherodb.com/pictures2/portraits/10/100/167.jpg"
+      url: "https://image.ibb.co/mJnfKe/agent13.jpg"
     }
   },
   {
