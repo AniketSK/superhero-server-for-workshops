@@ -1,6 +1,7 @@
 const handleReqAll = require("./localrequests").handleReqAll;
 const getSingleHeroId = require("./getSingleId").getSingleHeroId;
 const stripUnusedFields = require("./apishape").stripUnusedFields;
+const imageHandling = require("./imageHandler").imageHandling
 //Load HTTP module
 const http = require("http");
 const hostname = "127.0.0.1";
@@ -41,8 +42,10 @@ const server = http.createServer((req, res) => {
     /* no favicons */
   } else if (req.url == "/") {
     res.end(useageInfo);
-  } else {
+  } else if (req.url.startsWith("/api")) {
     res.end(JSON.stringify(stripUnusedFields(getSingleHeroId(req.url))));
+  } else {
+    imageHandling(req, res);
   }
 });
 
