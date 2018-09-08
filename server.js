@@ -1,5 +1,5 @@
 const handleReqAll = require("./localrequests").handleReqAll;
-const handleSuperheroApi = require("./getSingleId").handleSuperheroApi;
+const getSingleHeroId = require("./getSingleId").getSingleHeroId;
 const stripUnusedFields = require("./apishape").stripUnusedFields;
 //Load HTTP module
 const http = require("http");
@@ -42,7 +42,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/") {
     res.end(useageInfo);
   } else {
-    res.end(JSON.stringify(stripUnusedFields(handleSuperheroApi(req.url))));
+    res.end(JSON.stringify(stripUnusedFields(getSingleHeroId(req.url))));
   }
 });
 

@@ -1,14 +1,14 @@
-const handleSuperheroApi = require("./getSingleId").handleSuperheroApi;
+const getSingleHeroId = require("./getSingleId").getSingleHeroId;
 const missingIdError = require("./errors").missingIdError;
 
 test("returns a single hero object for a valid api request", () => {
   const url = "http://127.0.0.1/api/12";
-  expect(handleSuperheroApi(url)).toEqual(validExpectedData);
+  expect(getSingleHeroId(url)).toEqual(validExpectedData);
 });
 
 test("returns an error json for an id that doesn't exist", () => {
   const url = "http://127.0.0.1/api/-1";
-  expect(handleSuperheroApi(url)).toEqual(missingIdError);
+  expect(getSingleHeroId(url)).toEqual(missingIdError);
 });
 
 const validExpectedData = {

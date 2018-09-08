@@ -4,7 +4,7 @@ const missingIdError = require("./errors").missingIdError;
 /**
  * Handling a request for a single hero from the list
  */
-handleSuperheroApi = url => {
+getSingleHeroId = url => {
   console.log(`Url is ${url}`);
   let id = getId(url);
   const result = allData.find(i => i.id == id);
@@ -23,4 +23,4 @@ getId = url => {
   }
 };
 
-exports.handleSuperheroApi = handleSuperheroApi;
+exports.getSingleHeroId = getSingleHeroId;
